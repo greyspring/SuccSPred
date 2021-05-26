@@ -25,6 +25,6 @@ Before using BioSeq-Analysis, the Python software should be first installed and 
 # 3. Reference and Feedback
 
 
-  Ruiquan Ge, Yizhang Luo, Guanwen Feng, Gangyong Jia, Hua Zhang, Chong Xu, Pu Wang. SuccSPred: Succinylation Sites Prediction Using Fused Feature representation and Ranking Method. Submitted,2021.
+  Ruiquan Ge, Yizhang Luo, Guanwen Feng, Gangyong Jia, Hua Zhang, Chong Xu, Pu Wang. SuccSPred: Succinylation Sites Prediction Using Fused Feature Representation and Ranking Method. Submitted,2021.
 
   Please contact the development team at: gespring@hdu.edu.cn to submit questions or feedback for us.
