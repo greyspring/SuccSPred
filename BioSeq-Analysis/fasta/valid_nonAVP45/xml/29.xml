@@ -1,0 +1,2106 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.4.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>./psiblast/nrdb90/nrdb90</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Non-AVP_0322 hello</BlastOutput_query-def>
+  <BlastOutput_query-len>20</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Non-AVP_0322 hello</Iteration_query-def>
+  <Iteration_query-len>20</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:sptrembl|Q90QK5|Q90QK5</Hit_id>
+  <Hit_def>Envelope polyprotein (Fragment).//:gp|AF298778|15077237 envelope polyprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q90QK5|Q90QK5</Hit_accession>
+  <Hit_len>859</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>1.93461e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>515</Hsp_hit-from>
+      <Hsp_hit-to>534</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:sptrembl|Q999V8|Q999V8</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AJ304988|12407057 envelope precursor glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q999V8|Q999V8</Hit_accession>
+  <Hit_len>684</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>3.74701e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>344</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:sptrembl|Q85540|Q85540</Hit_id>
+  <Hit_def>Gp100 (Fragment).//:gp|U02422|458006 gp100 [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q85540|Q85540</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>4.34614e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>/:sptrembl|Q85530|Q85530</Hit_id>
+  <Hit_def>Gp100 (Fragment).//:gp|U02412|457986 gp100 [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q85530|Q85530</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>4.40948e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>/:sptrembl|Q66959|Q66959</Hit_id>
+  <Hit_def>Envelope polyprotein.//:gp|D37815|840679 envelope polyprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q66959|Q66959</Hit_accession>
+  <Hit_len>852</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>4.48877e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>516</Hsp_hit-from>
+      <Hsp_hit-to>535</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>/:sptrembl|Q9YMZ2|Q9YMZ2</Hit_id>
+  <Hit_def>Env polyprotein (Fragment).//:gp|AF051805|4240377 env polyprotein precursor [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9YMZ2|Q9YMZ2</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>4.73201e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>/:sptrembl|Q85551|Q85551</Hit_id>
+  <Hit_def>Gp100 (Fragment).//:gp|U02403|457968 gp100 [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q85551|Q85551</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>4.75425e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>/:swiss|P16090|ENV_FIVPE</Hit_id>
+  <Hit_def>ENV polyprotein precursor (GP150 polyprotein) [Contains: Glycoprotein GP100; Glycoprotein GP36].</Hit_def>
+  <Hit_accession>/:swiss|P16090|ENV_FIVPE</Hit_accession>
+  <Hit_len>856</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>4.99844e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>517</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>/:swiss|Q04993|ENV_FIVU2</Hit_id>
+  <Hit_def>ENV polyprotein precursor (GP150 polyprotein) [Contains: Glycoprotein GP100; Glycoprotein GP36].//:gp|X69494|59268 surface glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:swiss|Q04993|ENV_FIVU2</Hit_accession>
+  <Hit_len>855</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>4.99857e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>517</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>/:sptrembl|Q9YMZ4|Q9YMZ4</Hit_id>
+  <Hit_def>Env polyprotein (Fragment).//:gp|AF051803|4240373 env polyprotein precursor [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9YMZ4|Q9YMZ4</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>5.0744e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>/:sptrembl|Q85537|Q85537</Hit_id>
+  <Hit_def>Gp100 (Fragment).//:gp|U02419|458000 gp100 [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q85537|Q85537</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>5.09791e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>/:sptrembl|Q85553|Q85553</Hit_id>
+  <Hit_def>Gp100 (Fragment).//:gp|U02405|457972 gp100 [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q85553|Q85553</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>5.2408e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>/:pironly|PQ0620|PQ0620</Hit_id>
+  <Hit_def>envelope protein - feline immunodeficiency virus (isolate UK 14) (fragment)</Hit_def>
+  <Hit_accession>/:pironly|PQ0620|PQ0620</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>5.29617e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>/:sptrembl|Q9YMZ1|Q9YMZ1</Hit_id>
+  <Hit_def>Env polyprotein (Fragment).//:gp|AF051806|4240379 env polyprotein precursor [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9YMZ1|Q9YMZ1</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>5.32827e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>/:sptrembl|Q85538|Q85538</Hit_id>
+  <Hit_def>Gp100 (Fragment).//:gp|U02420|458002 gp100 [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q85538|Q85538</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>5.6197e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>/:pironly|PQ0621|PQ0621</Hit_id>
+  <Hit_def>envelope protein - feline immunodeficiency virus (isolate Dutch 4) (fragment)</Hit_def>
+  <Hit_accession>/:pironly|PQ0621|PQ0621</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>5.79726e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>/:sptrembl|Q8UNJ6|Q8UNJ6</Hit_id>
+  <Hit_def>Envelope polyprotein.//:gpnew|AF452126|17980902 envelope polyprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8UNJ6|Q8UNJ6</Hit_accession>
+  <Hit_len>851</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>1.03143e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>517</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMSKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNM+KAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>/:sptrembl|O89181|O89181</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AB010401|3298315 envelope glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O89181|O89181</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>1.24274e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNMAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM N+AGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>/:swiss|Q02282|ENV_FIVT2</Hit_id>
+  <Hit_def>ENV polyprotein precursor (GP150 polyprotein) [Contains: Glycoprotein GP100; Glycoprotein GP36].//:gp|M59418|323952 envelope polyprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:swiss|Q02282|ENV_FIVT2</Hit_accession>
+  <Hit_len>855</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>1.48149e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>517</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVELYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVE+ NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>/:sptrembl|Q66956|Q66956</Hit_id>
+  <Hit_def>Envelope polyprotein.//:gp|D37811|840673 envelope polyprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q66956|Q66956</Hit_accession>
+  <Hit_len>857</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>1.71576e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>516</Hsp_hit-from>
+      <Hsp_hit-to>535</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCNS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>/:sptrembl|O89183|O89183</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AB010403|3298319 envelope glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O89183|O89183</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>1.88992e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCKS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>/:sptrembl|O89176|O89176</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AB010396|3298305 envelope glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O89176|O89176</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>1.92819e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCKS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>/:swiss|Q03804|ENV_FIVU1</Hit_id>
+  <Hit_def>ENV polyprotein precursor (GP150 polyprotein) [Contains: Glycoprotein GP100; Glycoprotein GP36].//:gp|A40118|2296281 unnamed protein product [Feline immunodeficiency virus]//:gp|X60725|1093 envelope precursor  glycoprotein [Feline immunodeficiency virus]//:remtrembl|CAA02477|CAA02477 SEQUENCE 1 FROM PATENT WO9420622 (FRAGMENT).</Hit_def>
+  <Hit_accession>/:swiss|Q03804|ENV_FIVU1</Hit_accession>
+  <Hit_len>856</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>2.14914e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>517</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCMS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>/:swiss|P19030|ENV_FIVSD</Hit_id>
+  <Hit_def>ENV polyprotein precursor (GP150 polyprotein) [Contains: Glycoprotein GP100; Glycoprotein GP36].//:gp|M36968|323962 env polyprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:swiss|P19030|ENV_FIVSD</Hit_accession>
+  <Hit_len>854</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>2.30171e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>517</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCKS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>/:sptrembl|Q9WAV7|Q9WAV7</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AB021105|4996300 envelope glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9WAV7|Q9WAV7</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>2.32214e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCNS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>/:pironly|PQ0624|PQ0624</Hit_id>
+  <Hit_def>envelope protein - feline immunodeficiency virus (isolate Italy M2) (fragment)</Hit_def>
+  <Hit_accession>/:pironly|PQ0624|PQ0624</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>2.33395e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCKS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>/:sptrembl|Q9WAW2|Q9WAW2</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AB021110|4996310 envelope glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9WAW2|Q9WAW2</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>2.44768e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCNS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>/:sptrembl|Q9WAW1|Q9WAW1</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AB021109|4996308 envelope glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9WAW1|Q9WAW1</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>2.46001e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCKS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>/:sptrembl|P87679|P87679</Hit_id>
+  <Hit_def>Env protein (Fragment).//:gp|D84498|1778666 V3-V5 regions of FIV env gene [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|P87679|P87679</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>2.65563e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCRS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>/:sptrembl|O89178|O89178</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AB010398|3298309 envelope glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O89178|O89178</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>2.69812e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCNS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>/:sptrembl|Q9WAX0|Q9WAX0</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AB021118|4996326 envelope glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9WAX0|Q9WAX0</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>2.74569e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCNS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>/:pironly|PQ0622|PQ0622</Hit_id>
+  <Hit_def>envelope protein - feline immunodeficiency virus (isolate Dutch 6) (fragment)</Hit_def>
+  <Hit_accession>/:pironly|PQ0622|PQ0622</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>3.53001e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCMS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>/:sptrembl|O89258|O89258</Hit_id>
+  <Hit_def>Envelope polyprotein (Fragment).//:gp|AB016027|3318600 envelope polyprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O89258|O89258</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>4.3316e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTRAVEMYNIAGNWSCKS</Hsp_hseq>
+      <Hsp_midline>FNMT+AVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>/:sptrembl|Q85547|Q85547</Hit_id>
+  <Hit_def>Gp100 (Fragment).//:gp|U02393|457948 gp100 [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q85547|Q85547</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>4.407e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTRAVEMYNIAGNWSCKS</Hsp_hseq>
+      <Hsp_midline>FNMT+AVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>/:sptrembl|Q04990|Q04990</Hit_id>
+  <Hit_def>Envelope polyprotein (Fragment).//:gp|X69502|1359646 surface glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q04990|Q04990</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.000100248</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FIMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>F MTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>/:sptrembl|Q8Q5Q4|Q8Q5Q4</Hit_id>
+  <Hit_def>Envelope polyprotein.</Hit_def>
+  <Hit_accession>/:sptrembl|Q8Q5Q4|Q8Q5Q4</Hit_accession>
+  <Hit_len>853</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.000101996</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>517</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYEIAGNWSCKS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM  IAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>/:pironly|PQ0626|PQ0626</Hit_id>
+  <Hit_def>envelope protein - feline immunodeficiency virus (isolate Italy M4) (fragment)</Hit_def>
+  <Hit_accession>/:pironly|PQ0626|PQ0626</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.000799871</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>19</Hsp_align-len>
+      <Hsp_qseq>NMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>NMTKAVEMYNIVGNWSCRS</Hsp_hseq>
+      <Hsp_midline>NMTKAVEM NI GNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>3562422100</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Non-AVP_0322 hello</Iteration_query-def>
+  <Iteration_query-len>20</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:sptrembl|Q90QK5|Q90QK5</Hit_id>
+  <Hit_def>Envelope polyprotein (Fragment).//:gp|AF298778|15077237 envelope polyprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q90QK5|Q90QK5</Hit_accession>
+  <Hit_len>859</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5366</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>1.96049e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>515</Hsp_hit-from>
+      <Hsp_hit-to>534</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:sptrembl|Q66959|Q66959</Hit_id>
+  <Hit_def>Envelope polyprotein.//:gp|D37815|840679 envelope polyprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q66959|Q66959</Hit_accession>
+  <Hit_len>852</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7662</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>3.42495e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>516</Hsp_hit-from>
+      <Hsp_hit-to>535</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:swiss|Q04993|ENV_FIVU2</Hit_id>
+  <Hit_def>ENV polyprotein precursor (GP150 polyprotein) [Contains: Glycoprotein GP100; Glycoprotein GP36].//:gp|X69494|59268 surface glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:swiss|Q04993|ENV_FIVU2</Hit_accession>
+  <Hit_len>855</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.381</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>4.24736e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>517</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>/:swiss|P16090|ENV_FIVPE</Hit_id>
+  <Hit_def>ENV polyprotein precursor (GP150 polyprotein) [Contains: Glycoprotein GP100; Glycoprotein GP36].</Hit_def>
+  <Hit_accession>/:swiss|P16090|ENV_FIVPE</Hit_accession>
+  <Hit_len>856</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.381</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>4.37379e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>517</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>/:swiss|P19030|ENV_FIVSD</Hit_id>
+  <Hit_def>ENV polyprotein precursor (GP150 polyprotein) [Contains: Glycoprotein GP100; Glycoprotein GP36].//:gp|M36968|323962 env polyprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:swiss|P19030|ENV_FIVSD</Hit_accession>
+  <Hit_len>854</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9958</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>5.31965e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>517</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCKS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>/:sptrembl|Q66956|Q66956</Hit_id>
+  <Hit_def>Envelope polyprotein.//:gp|D37811|840673 envelope polyprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q66956|Q66956</Hit_accession>
+  <Hit_len>857</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.6106</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>8.10263e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>516</Hsp_hit-from>
+      <Hsp_hit-to>535</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCNS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>/:sptrembl|Q8UNJ6|Q8UNJ6</Hit_id>
+  <Hit_def>Envelope polyprotein.//:gpnew|AF452126|17980902 envelope polyprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q8UNJ6|Q8UNJ6</Hit_accession>
+  <Hit_len>851</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.6106</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>8.51031e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>517</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMSKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNM+KAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>/:sptrembl|Q8Q5Q4|Q8Q5Q4</Hit_id>
+  <Hit_def>Envelope polyprotein.</Hit_def>
+  <Hit_accession>/:sptrembl|Q8Q5Q4|Q8Q5Q4</Hit_accession>
+  <Hit_len>853</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.6106</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>9.02463e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>517</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYEIAGNWSCKS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM  IAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>/:sptrembl|Q999V8|Q999V8</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AJ304988|12407057 envelope precursor glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q999V8|Q999V8</Hit_accession>
+  <Hit_len>684</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2254</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>1.07143e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>344</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>/:swiss|Q03804|ENV_FIVU1</Hit_id>
+  <Hit_def>ENV polyprotein precursor (GP150 polyprotein) [Contains: Glycoprotein GP100; Glycoprotein GP36].//:gp|A40118|2296281 unnamed protein product [Feline immunodeficiency virus]//:gp|X60725|1093 envelope precursor  glycoprotein [Feline immunodeficiency virus]//:remtrembl|CAA02477|CAA02477 SEQUENCE 1 FROM PATENT WO9420622 (FRAGMENT).</Hit_def>
+  <Hit_accession>/:swiss|Q03804|ENV_FIVU1</Hit_accession>
+  <Hit_len>856</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2254</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>1.21041e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>517</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCMS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>/:swiss|Q02282|ENV_FIVT2</Hit_id>
+  <Hit_def>ENV polyprotein precursor (GP150 polyprotein) [Contains: Glycoprotein GP100; Glycoprotein GP36].//:gp|M59418|323952 envelope polyprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:swiss|Q02282|ENV_FIVT2</Hit_accession>
+  <Hit_len>855</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2254</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>1.22235e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>517</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVELYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVE+ NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>/:sptrembl|Q85551|Q85551</Hit_id>
+  <Hit_def>Gp100 (Fragment).//:gp|U02403|457968 gp100 [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q85551|Q85551</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2994</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>6.07388e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>/:sptrembl|Q9YMZ2|Q9YMZ2</Hit_id>
+  <Hit_def>Env polyprotein (Fragment).//:gp|AF051805|4240377 env polyprotein precursor [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9YMZ2|Q9YMZ2</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2994</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>6.30374e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>/:pironly|PQ0620|PQ0620</Hit_id>
+  <Hit_def>envelope protein - feline immunodeficiency virus (isolate UK 14) (fragment)</Hit_def>
+  <Hit_accession>/:pironly|PQ0620|PQ0620</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.9142</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>7.42669e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>/:pironly|PQ0624|PQ0624</Hit_id>
+  <Hit_def>envelope protein - feline immunodeficiency virus (isolate Italy M2) (fragment)</Hit_def>
+  <Hit_accession>/:pironly|PQ0624|PQ0624</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.9142</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>7.57447e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCKS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>/:sptrembl|Q85530|Q85530</Hit_id>
+  <Hit_def>Gp100 (Fragment).//:gp|U02412|457986 gp100 [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q85530|Q85530</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.9142</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>8.19153e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>/:sptrembl|Q85553|Q85553</Hit_id>
+  <Hit_def>Gp100 (Fragment).//:gp|U02405|457972 gp100 [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q85553|Q85553</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.9142</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>8.4951e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>/:sptrembl|Q85540|Q85540</Hit_id>
+  <Hit_def>Gp100 (Fragment).//:gp|U02422|458006 gp100 [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q85540|Q85540</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.9142</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>8.50446e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>/:sptrembl|O89176|O89176</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AB010396|3298305 envelope glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O89176|O89176</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.529</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>9.30174e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCKS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>/:sptrembl|Q9YMZ4|Q9YMZ4</Hit_id>
+  <Hit_def>Env polyprotein (Fragment).//:gp|AF051803|4240373 env polyprotein precursor [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9YMZ4|Q9YMZ4</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.529</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.000117637</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>/:sptrembl|Q9WAW1|Q9WAW1</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AB021109|4996308 envelope glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9WAW1|Q9WAW1</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1438</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.000121641</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCKS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>/:pironly|PQ0621|PQ0621</Hit_id>
+  <Hit_def>envelope protein - feline immunodeficiency virus (isolate Dutch 4) (fragment)</Hit_def>
+  <Hit_accession>/:pironly|PQ0621|PQ0621</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1438</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.000138162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>/:sptrembl|P87679|P87679</Hit_id>
+  <Hit_def>Env protein (Fragment).//:gp|D84498|1778666 V3-V5 regions of FIV env gene [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|P87679|P87679</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1438</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.000138162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCRS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>/:sptrembl|Q85547|Q85547</Hit_id>
+  <Hit_def>Gp100 (Fragment).//:gp|U02393|457948 gp100 [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q85547|Q85547</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1438</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.000139448</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTRAVEMYNIAGNWSCKS</Hsp_hseq>
+      <Hsp_midline>FNMT+AVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>/:sptrembl|Q9YMZ1|Q9YMZ1</Hit_id>
+  <Hit_def>Env polyprotein (Fragment).//:gp|AF051806|4240379 env polyprotein precursor [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9YMZ1|Q9YMZ1</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1438</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.000146764</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>/:sptrembl|Q85538|Q85538</Hit_id>
+  <Hit_def>Gp100 (Fragment).//:gp|U02420|458002 gp100 [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q85538|Q85538</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1438</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.000149303</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>/:sptrembl|O89183|O89183</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AB010403|3298319 envelope glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O89183|O89183</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7586</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.000172521</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCKS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>/:sptrembl|O89258|O89258</Hit_id>
+  <Hit_def>Envelope polyprotein (Fragment).//:gp|AB016027|3318600 envelope polyprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O89258|O89258</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7586</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.000173593</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTRAVEMYNIAGNWSCKS</Hsp_hseq>
+      <Hsp_midline>FNMT+AVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>/:sptrembl|Q85537|Q85537</Hit_id>
+  <Hit_def>Gp100 (Fragment).//:gp|U02419|458000 gp100 [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q85537|Q85537</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7586</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.000175036</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>/:sptrembl|Q9WAW2|Q9WAW2</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AB021110|4996310 envelope glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9WAW2|Q9WAW2</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3734</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.000235964</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCNS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>/:sptrembl|Q9WAV7|Q9WAV7</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AB021105|4996300 envelope glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9WAV7|Q9WAV7</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3734</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.000265437</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCNS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>/:sptrembl|O89178|O89178</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AB010398|3298309 envelope glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O89178|O89178</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3734</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.000281735</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCNS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>/:sptrembl|O89181|O89181</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AB010401|3298315 envelope glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|O89181|O89181</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3734</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00029397</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNMAGNWSCTS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM N+AGNWSCTS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>/:sptrembl|Q9WAX0|Q9WAX0</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|AB021118|4996326 envelope glycoprotein [Feline immunodeficiency virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9WAX0|Q9WAX0</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.9882</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.000325041</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCNS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>/:pironly|PQ0622|PQ0622</Hit_id>
+  <Hit_def>envelope protein - feline immunodeficiency virus (isolate Dutch 6) (fragment)</Hit_def>
+  <Hit_accession>/:pironly|PQ0622|PQ0622</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.9882</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.000334666</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>FNMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>FNMTKAVEMYNIAGNWSCMS</Hsp_hseq>
+      <Hsp_midline>FNMTKAVEM NIAGNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>/:pironly|PQ0626|PQ0626</Hit_id>
+  <Hit_def>envelope protein - feline immunodeficiency virus (isolate Italy M4) (fragment)</Hit_def>
+  <Hit_accession>/:pironly|PQ0626|PQ0626</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.603</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.00057482</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>20</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>19</Hsp_align-len>
+      <Hsp_qseq>NMTKAVEMVNIAGNWSCTS</Hsp_qseq>
+      <Hsp_hseq>NMTKAVEMYNIVGNWSCRS</Hsp_hseq>
+      <Hsp_midline>NMTKAVEM NI GNWSC S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>3562422100</Statistics_eff-space>
+      <Statistics_kappa>0.0395392372845478</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>lcl|Query_1 Non-AVP_0322 hello:  lcl|Query_1 Non-AVP_0322 hello: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics </Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

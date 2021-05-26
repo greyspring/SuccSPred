@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.4.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>./psiblast/nrdb90/nrdb90</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Non-AVP_0465 hello</BlastOutput_query-def>
+  <BlastOutput_query-len>40</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Non-AVP_0465 hello</Iteration_query-def>
+  <Iteration_query-len>40</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:swiss|P06477|VGLH_HSV11</Hit_id>
+  <Hit_def>Glycoprotein H precursor.//:gp|D10879|221743 virion glycoprotein H [human herpesvirus 1]//:gp|X03896|59852 precursor (gH) (aa -20 to 818) [human herpesvirus 1]//:gp|X14112|59522 virion glycoprotein H [human herpesvirus 1]</Hit_def>
+  <Hit_accession>/:swiss|P06477|VGLH_HSV11</Hit_accession>
+  <Hit_len>838</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>5.91811e-019</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>381</Hsp_hit-from>
+      <Hsp_hit-to>420</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>RLTGLLATSGFAFVNAAHANGAVCLSDLLGFLAHSRALAG</Hsp_qseq>
+      <Hsp_hseq>RLTGLLATSGFAFVNAAHANGAVCLSDLLGFLAHSRALAG</Hsp_hseq>
+      <Hsp_midline>RLTGLLATSGFAFVNAAHANGAVCLSDLLGFLAHSRALAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:sptrembl|P89445|P89445</Hit_id>
+  <Hit_def>Virion glycoprotein H.//:gp|Z86099|1869844 virion glycoprotein H [human herpesvirus 2]</Hit_def>
+  <Hit_accession>/:sptrembl|P89445|P89445</Hit_accession>
+  <Hit_len>838</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>2.2037e-012</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>381</Hsp_hit-from>
+      <Hsp_hit-to>418</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>RLTGLLATSGFAFVNAAHANGAVCLSDLLGFLAHSRAL</Hsp_qseq>
+      <Hsp_hseq>RLAGLLASSGFAFVNAAHAHDAIRLSDLLGFLAHSRVL</Hsp_hseq>
+      <Hsp_midline>RL GLLA+SGFAFVNAAHA+ A+ LSDLLGFLAHSR L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:sptrembl|Q91RA9|Q91RA9</Hit_id>
+  <Hit_def>Glycoprotein H.//:gp|AF375976|14165154 glycoprotein H [Bovine herpesvirus 2]</Hit_def>
+  <Hit_accession>/:sptrembl|Q91RA9|Q91RA9</Hit_accession>
+  <Hit_len>867</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>2.36638e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>408</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>RLTGLLATSGFAFVNAAHANGAVCLSDLLGFLAHSRALA</Hsp_qseq>
+      <Hsp_hseq>RMSGLMATAGMSLLDSAHSHGATSLTSLVRFMTHMRILA</Hsp_hseq>
+      <Hsp_midline>R++GL+AT+G + +++AH++GA  L+ L+ F+ H R LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>14</Statistics_hsp-len>
+      <Statistics_eff-space>4436432026</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Non-AVP_0465 hello</Iteration_query-def>
+  <Iteration_query-len>40</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:swiss|P06477|VGLH_HSV11</Hit_id>
+  <Hit_def>Glycoprotein H precursor.//:gp|D10879|221743 virion glycoprotein H [human herpesvirus 1]//:gp|X03896|59852 precursor (gH) (aa -20 to 818) [human herpesvirus 1]//:gp|X14112|59522 virion glycoprotein H [human herpesvirus 1]</Hit_def>
+  <Hit_accession>/:swiss|P06477|VGLH_HSV11</Hit_accession>
+  <Hit_len>838</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.4364</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>4.83082e-013</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>381</Hsp_hit-from>
+      <Hsp_hit-to>420</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>RLTGLLATSGFAFVNAAHANGAVCLSDLLGFLAHSRALAG</Hsp_qseq>
+      <Hsp_hseq>RLTGLLATSGFAFVNAAHANGAVCLSDLLGFLAHSRALAG</Hsp_hseq>
+      <Hsp_midline>RLTGLLATSGFAFVNAAHANGAVCLSDLLGFLAHSRALAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:sptrembl|Q91RA9|Q91RA9</Hit_id>
+  <Hit_def>Glycoprotein H.//:gp|AF375976|14165154 glycoprotein H [Bovine herpesvirus 2]</Hit_def>
+  <Hit_accession>/:sptrembl|Q91RA9|Q91RA9</Hit_accession>
+  <Hit_len>867</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.0436</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>3.16259e-011</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>408</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>RLTGLLATSGFAFVNAAHANGAVCLSDLLGFLAHSRALA</Hsp_qseq>
+      <Hsp_hseq>RMSGLMATAGMSLLDSAHSHGATSLTSLVRFMTHMRILA</Hsp_hseq>
+      <Hsp_midline>R++GL+AT+G + +++AH++GA  L+ L+ F+ H R LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:sptrembl|P89445|P89445</Hit_id>
+  <Hit_def>Virion glycoprotein H.//:gp|Z86099|1869844 virion glycoprotein H [human herpesvirus 2]</Hit_def>
+  <Hit_accession>/:sptrembl|P89445|P89445</Hit_accession>
+  <Hit_len>838</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.2733</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>6.03053e-011</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>381</Hsp_hit-from>
+      <Hsp_hit-to>418</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>RLTGLLATSGFAFVNAAHANGAVCLSDLLGFLAHSRAL</Hsp_qseq>
+      <Hsp_hseq>RLAGLLASSGFAFVNAAHAHDAIRLSDLLGFLAHSRVL</Hsp_hseq>
+      <Hsp_midline>RL GLLA+SGFAFVNAAHA+ A+ LSDLLGFLAHSR L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>14</Statistics_hsp-len>
+      <Statistics_eff-space>4436432026</Statistics_eff-space>
+      <Statistics_kappa>0.0436212788352873</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>lcl|Query_1 Non-AVP_0465 hello:  lcl|Query_1 Non-AVP_0465 hello: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics </Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

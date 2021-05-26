@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.4.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>./psiblast/nrdb90/nrdb90</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Non-AVP_0447 hello</BlastOutput_query-def>
+  <BlastOutput_query-len>35</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Non-AVP_0447 hello</Iteration_query-def>
+  <Iteration_query-len>35</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:swiss|P06828|VGLF_PI3H4</Hit_id>
+  <Hit_def>Fusion glycoprotein precursor [Contains: Fusion glycoprotein F2; Fusion glycoprotein F1].//:gp|M21649|332717 fusion protein F1/F2 precursor [Human parainfluenza virus 3]</Hit_def>
+  <Hit_accession>/:swiss|P06828|VGLF_PI3H4</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>3.58163e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>440</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>PNDITLNNSVALDPIDISIELNKAKSDLEESKEWI</Hsp_qseq>
+      <Hsp_hseq>PNDITLNNSVALDPIDISIELNKAKSDLEESKEWI</Hsp_hseq>
+      <Hsp_midline>PNDITLNNSVALDPIDISIELNKAKSDLEESKEWI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:swiss|P09990|VGLF_PI3B</Hit_id>
+  <Hit_def>Fusion glycoprotein precursor [Contains: Fusion glycoprotein F2; Fusion glycoprotein F1].//:gp|Y00114|60896 fusion protein (AA 1 - 540) [Human parainfluenza virus 3]//:gp|D84095|1255657 F protein [Human parainfluenza virus 3]</Hit_def>
+  <Hit_accession>/:swiss|P09990|VGLF_PI3B</Hit_accession>
+  <Hit_len>540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>4.59348e-011</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>442</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>DITLNNSVALDPIDISIELNKAKSDLEESKEWI</Hsp_qseq>
+      <Hsp_hseq>DIILNNSVALNPIDISMELNKAKLELEESKEWI</Hsp_hseq>
+      <Hsp_midline>DI LNNSVAL+PIDIS+ELNKAK +LEESKEWI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>9</Statistics_hsp-len>
+      <Statistics_eff-space>4505973706</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Non-AVP_0447 hello</Iteration_query-def>
+  <Iteration_query-len>35</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:swiss|P06828|VGLF_PI3H4</Hit_id>
+  <Hit_def>Fusion glycoprotein precursor [Contains: Fusion glycoprotein F2; Fusion glycoprotein F1].//:gp|M21649|332717 fusion protein F1/F2 precursor [Human parainfluenza virus 3]</Hit_def>
+  <Hit_accession>/:swiss|P06828|VGLF_PI3H4</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.4941</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>5.39514e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>440</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>PNDITLNNSVALDPIDISIELNKAKSDLEESKEWI</Hsp_qseq>
+      <Hsp_hseq>PNDITLNNSVALDPIDISIELNKAKSDLEESKEWI</Hsp_hseq>
+      <Hsp_midline>PNDITLNNSVALDPIDISIELNKAKSDLEESKEWI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:swiss|P09990|VGLF_PI3B</Hit_id>
+  <Hit_def>Fusion glycoprotein precursor [Contains: Fusion glycoprotein F2; Fusion glycoprotein F1].//:gp|Y00114|60896 fusion protein (AA 1 - 540) [Human parainfluenza virus 3]//:gp|D84095|1255657 F protein [Human parainfluenza virus 3]</Hit_def>
+  <Hit_accession>/:swiss|P09990|VGLF_PI3B</Hit_accession>
+  <Hit_len>540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.4865</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>3.37961e-013</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>NDITLNNSVALDPIDISIELNKAKSDLEESKEWI</Hsp_qseq>
+      <Hsp_hseq>DDIILNNSVALNPIDISMELNKAKLELEESKEWI</Hsp_hseq>
+      <Hsp_midline>+DI LNNSVAL+PIDIS+ELNKAK +LEESKEWI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>9</Statistics_hsp-len>
+      <Statistics_eff-space>4505973706</Statistics_eff-space>
+      <Statistics_kappa>0.0405537242089928</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>lcl|Query_1 Non-AVP_0447 hello:  lcl|Query_1 Non-AVP_0447 hello: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics </Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

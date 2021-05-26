@@ -1,0 +1,1070 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.4.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>./psiblast/nrdb90/nrdb90</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Non-AVP_0470 hello</BlastOutput_query-def>
+  <BlastOutput_query-len>43</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Non-AVP_0470 hello</Iteration_query-def>
+  <Iteration_query-len>43</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:swiss|P25190|VGL2_CVBF</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein) [Contains: Spike protein S1 (90B); Spike protein S2 (90A)].//:gp|D00731|221137 spike glycoprotein precursor [bovine coronavirus]</Hit_def>
+  <Hit_accession>/:swiss|P25190|VGL2_CVBF</Hit_accession>
+  <Hit_len>1363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>1.24821e-010</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1266</Hsp_hit-from>
+      <Hsp_hit-to>1308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>INVTFLDLQDEMNRLQEAIKLLNQSYINLKDIGTYEYYVKWPW</Hsp_hseq>
+      <Hsp_midline>IN + +++Q E++RL E  K LN+S I+L+++G YE Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:tremblnew|AAM77000|AAM77000</Hit_id>
+  <Hit_def>Spike glycoprotein.</Hit_def>
+  <Hit_accession>/:tremblnew|AAM77000|AAM77000</Hit_accession>
+  <Hit_len>1349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>2.0557e-010</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1252</Hsp_hit-from>
+      <Hsp_hit-to>1294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>INVTFLDLQDEMNRLQEAIKVLNHSYINLKDIGTYEYYVKWPW</Hsp_hseq>
+      <Hsp_midline>IN + +++Q E++RL E  K LN S I+L+++G YE Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:swiss|P11224|VGL2_CVMA5</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein) [Contains: Spike protein S1 (90B); Spike protein S2 (90A)].//:gp|M18379|331845 membrane associated glycoprotein E2 precursor [murine hepatitis virus]</Hit_def>
+  <Hit_accession>/:swiss|P11224|VGL2_CVMA5</Hit_accession>
+  <Hit_len>1324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>4.45304e-010</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1224</Hsp_hit-from>
+      <Hsp_hit-to>1266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>LNVTLLDLTYEMNRIQDAIKKLNESYINLKEVGTYEMYVKWPW</Hsp_hseq>
+      <Hsp_midline>+N +++++  E++R+ +  K LNES I+L+E+G YE Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>/:sptrembl|Q83331|Q83331</Hit_id>
+  <Hit_def>S glycoprotein.//:gp|U14646|561672 S glycoprotein [murine hepatitis virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q83331|Q83331</Hit_accession>
+  <Hit_len>1361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>5.36273e-010</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1261</Hsp_hit-from>
+      <Hsp_hit-to>1303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>LNVTFLDLTDEMNRIQDAIKKLNESYINLKEVGTYEMYVKWPW</Hsp_hseq>
+      <Hsp_midline>+N + +++  E++R+ +  K LNES I+L+E+G YE Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>/:swiss|P22432|VGL2_CVM4</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein) [Contains: Spike protein S1 (90B); Spike protein S2 (90A)].//:gp|S51114|234140 E2 [murine hepatitis virus strain 4]//:gp|M32789|331847 E2 glycoprotein [murine hepatitis virus]</Hit_def>
+  <Hit_accession>/:swiss|P22432|VGL2_CVM4</Hit_accession>
+  <Hit_len>1376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>7.85483e-010</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1276</Hsp_hit-from>
+      <Hsp_hit-to>1318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>LNVTFLDLTYEMNRIQDAIKKLNESYINLKEVGTYEMYVKWPW</Hsp_hseq>
+      <Hsp_midline>+N + +++  E++R+ +  K LNES I+L+E+G YE Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>/:swiss|P11225|VGL2_CVMJH</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein) [Contains: Spike protein S1 (90B); Spike protein S2 (90A)].//:swissnew|P11225|VGL2_CVMJH E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein) [Contains: Spike protein S1 (90B); Spike protein S2 (90A)].//:gp|X04797|58980 surface projection glycoprotein [murine hepatitis virus]//:gp|D00093|222098 surface projection glycoprotein [murine hepatitis virus]</Hit_def>
+  <Hit_accession>/:swiss|P11225|VGL2_CVMJH</Hit_accession>
+  <Hit_len>1235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.26907e-009</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1135</Hsp_hit-from>
+      <Hsp_hit-to>1177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>LNVTFLDLTYEMNRIQDAIKKLNESYINLKEVGTYEMYVKWPW</Hsp_hseq>
+      <Hsp_midline>+N + +++  E++R+ +  K LNES I+L+E+G YE Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>/:sptrembl|Q82666|Q82666</Hit_id>
+  <Hit_def>Spike protein.//:gp|X87238|1321872 spike protein [Avian infectious bronchitis virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q82666|Q82666</Hit_accession>
+  <Hit_len>1166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.44139e-009</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1060</Hsp_hit-from>
+      <Hsp_hit-to>1098</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>VVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>VLNISNEIDRIQEAIQGLNDSLIDLETLSILKTYIKWPW</Hsp_hseq>
+      <Hsp_midline>V+NI  EIDR+ E  + LN+SLIDL+ L   + YIKWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>/:sptrembl|Q9E128|Q9E128</Hit_id>
+  <Hit_def>Spike glycoprotein S2 subunit (Fragment).//:gp|AF288146|11038442 spike glycoprotein S2 subunit [Avian infectious bronchitis virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9E128|Q9E128</Hit_accession>
+  <Hit_len>625</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>3.80326e-009</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>519</Hsp_hit-from>
+      <Hsp_hit-to>557</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>VVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>ILNISGEIDRIQGVIQGLNDSLIDLEELSIIKTYIKWPW</Hsp_hseq>
+      <Hsp_midline>++NI  EIDR+  V + LN+SLIDL+EL   + YIKWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>/:sptrembl|Q64930|Q64930</Hit_id>
+  <Hit_def>Spike protein precursor.//:gp|U04739|806410 spike protein precursor [Avian infectious bronchitis virus]//:gp|U49858|2058398 spike protein [Avian infectious bronchitis virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q64930|Q64930</Hit_accession>
+  <Hit_len>1168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>5.84568e-009</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1062</Hsp_hit-from>
+      <Hsp_hit-to>1100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>VVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>VLNIIYDIDKIEEVIKGLNDSLIDLETLSILKTYIKWPW</Hsp_hseq>
+      <Hsp_midline>V+NI  +ID++ EV K LN+SLIDL+ L   + YIKWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>/:sptrembl|Q98WQ0|Q98WQ0</Hit_id>
+  <Hit_def>Spike glycoprotein, S2 subunit (Fragment).//:gp|AY024337|13378217 spike glycoprotein, S2 subunit [Avian infectious bronchitis virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q98WQ0|Q98WQ0</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>8.65652e-009</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>524</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>VVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>VLNISNEIDKIQEVIQGLNDSIIDLETLSILKTYIKWPW</Hsp_hseq>
+      <Hsp_midline>V+NI  EID++ EV + LN+S+IDL+ L   + YIKWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>/:swiss|P11223|VGL2_IBVB</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein) [Contains: Spike protein S1; Spike protein S2].//:pironly|S14939|S14939 E2 glycoprotein precursor - avian infectious bronchitis virus (strain M42-H)//:tremblnew|CAC39114|CAC39114 S protein.//:gp|A12747|491456 IBV Spike protein [synthetic construct]//:gp|X02342|58962 IBV spike precursor [Avian infectious bronchitis virus]//:gp|M95169|292954 spike protein [Avian infectious bronchitis virus]//:gp|AJ311317|14149035 S protein [Avian infectious bronchitis virus]//:remtrembl|CAA01056|CAA01056 IBV SPIKE PROTEIN.//:remtrembl|E972041|E972041 IBV BEAUDETTE STRAIN SPIKE PROTEIN.</Hit_def>
+  <Hit_accession>/:swiss|P11223|VGL2_IBVB</Hit_accession>
+  <Hit_len>1162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>1.71701e-008</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1056</Hsp_hit-from>
+      <Hsp_hit-to>1094</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>VVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>ILDIDSEIDRIQGVIQGLNDSLIDLEKLSILKTYIKWPW</Hsp_hseq>
+      <Hsp_midline>+++I  EIDR+  V + LN+SLIDL++L   + YIKWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>/:swiss|P05135|VGL2_IBV6</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein) [Contains: Spike protein S1; Spike protein S2].//:gp|X04723|58960 IBV spike protein [Avian infectious bronchitis virus]</Hit_def>
+  <Hit_accession>/:swiss|P05135|VGL2_IBV6</Hit_accession>
+  <Hit_len>1163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>4.94749e-008</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1057</Hsp_hit-from>
+      <Hsp_hit-to>1095</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>VVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>ILDIGSEIDRIQGVIQGLNDSLIDLETLSILKTYIKWPW</Hsp_hseq>
+      <Hsp_midline>+++I  EIDR+  V + LN+SLIDL+ L   + YIKWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>/:tremblnew|BAC05493|BAC05493</Hit_id>
+  <Hit_def>Peplomer protein.</Hit_def>
+  <Hit_accession>/:tremblnew|BAC05493|BAC05493</Hit_accession>
+  <Hit_len>1462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>2.21668e-005</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1349</Hsp_hit-from>
+      <Hsp_hit-to>1404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>NASVVNIQKEIDRLNEVAKNL--------------NESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>NQTKLNLTAEIDQLEQRADNLTTIAHELQQYIDNLNKTLVDLEWLNRIETYVKWPW</Hsp_hseq>
+      <Hsp_midline>N + +N+  EID+L + A NL              N++L+DL+ L + E Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>/:sptrembl|Q66951|Q66951</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein).//:gp|D32044|975637 peplomer protein [feline infectious peritonitis virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q66951|Q66951</Hit_accession>
+  <Hit_len>1464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>3.34997e-005</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1351</Hsp_hit-from>
+      <Hsp_hit-to>1406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>NASVVNIQKEIDRLNEVAKNL--------------NESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>NQTKLNLTAEIDQLEQRADNLTTIAHELQQYIDNLNKTLVDLDWLNRIETYVKWPW</Hsp_hseq>
+      <Hsp_midline>N + +N+  EID+L + A NL              N++L+DL  L + E Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>/:swiss|P15423|VGL2_CVH22</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein).//:tremblnew|AAG48592|AAG48592 Surface glycoprotein.//:gp|X16816|58927 precursor (AA-15 to 1158) [Human coronavirus 229E]//:gp|AF304460|12082741 surface glycoprotein [Human coronavirus 229E]</Hit_def>
+  <Hit_accession>/:swiss|P15423|VGL2_CVH22</Hit_accession>
+  <Hit_len>1173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>4.1993e-005</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1085</Hsp_hit-from>
+      <Hsp_hit-to>1116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>IDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>VQKLQTLIDNINSTLVDLKWLNRVETYIKWPW</Hsp_hseq>
+      <Hsp_midline>+ +L  +  N+N +L+DL+ L + E YIKWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>/:sptrembl|Q8QQ98|Q8QQ98</Hit_id>
+  <Hit_def>Spike protein.</Hit_def>
+  <Hit_accession>/:sptrembl|Q8QQ98|Q8QQ98</Hit_accession>
+  <Hit_len>1386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>7.80507e-005</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1273</Hsp_hit-from>
+      <Hsp_hit-to>1328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>NASVVNIQKEI--------------DRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>NATYLNLTGEIADLEQRSESLRNTTEELRSLIYNINNTLVDLEWLNRVETYIKWPW</Hsp_hseq>
+      <Hsp_midline>NA+ +N+  EI              + L  +  N+N +L+DL+ L + E YIKWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>/:sptrembl|Q66928|Q66928</Hit_id>
+  <Hit_def>Spike glycoprotein.//:gp|X80799|1155077 Spike glycoprotein [feline coronavirus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q66928|Q66928</Hit_accession>
+  <Hit_len>1454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.000246892</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1341</Hsp_hit-from>
+      <Hsp_hit-to>1396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>NASVVNIQKEIDRLN-----------EVA---KNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>NATYLNLTGEIDDLEFRSEKLHNTTVELAILIDNINNTLVNLEWLNRIETYVKWPW</Hsp_hseq>
+      <Hsp_midline>NA+ +N+  EID L            E+A    N+N +L++L+ L + E Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>/:swiss|P18450|VGL2_CVPFS</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein).//:gp|X53128|61379 spike protein precursor [Transmissible gastroenteritis virus]</Hit_def>
+  <Hit_accession>/:swiss|P18450|VGL2_CVPFS</Hit_accession>
+  <Hit_len>1449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00029188</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1336</Hsp_hit-from>
+      <Hsp_hit-to>1391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>NASVVNIQKEIDRLN-----------EVA---KNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>NATYLNLTGEIDDLEFRSEKLHNTTVELAILIDNINNTLVNLEWLNRIETYVKWPW</Hsp_hseq>
+      <Hsp_midline>NA+ +N+  EID L            E+A    N+N +L++L+ L + E Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>4394707018</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Non-AVP_0470 hello</Iteration_query-def>
+  <Iteration_query-len>43</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:swiss|P22432|VGL2_CVM4</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein) [Contains: Spike protein S1 (90B); Spike protein S2 (90A)].//:gp|S51114|234140 E2 [murine hepatitis virus strain 4]//:gp|M32789|331847 E2 glycoprotein [murine hepatitis virus]</Hit_def>
+  <Hit_accession>/:swiss|P22432|VGL2_CVM4</Hit_accession>
+  <Hit_len>1376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.6451</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>5.42922e-017</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1276</Hsp_hit-from>
+      <Hsp_hit-to>1318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>LNVTFLDLTYEMNRIQDAIKKLNESYINLKEVGTYEMYVKWPW</Hsp_hseq>
+      <Hsp_midline>+N + +++  E++R+ +  K LNES I+L+E+G YE Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:swiss|P11224|VGL2_CVMA5</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein) [Contains: Spike protein S1 (90B); Spike protein S2 (90A)].//:gp|M18379|331845 membrane associated glycoprotein E2 precursor [murine hepatitis virus]</Hit_def>
+  <Hit_accession>/:swiss|P11224|VGL2_CVMA5</Hit_accession>
+  <Hit_len>1324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.2599</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>8.0992e-017</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1224</Hsp_hit-from>
+      <Hsp_hit-to>1266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>LNVTLLDLTYEMNRIQDAIKKLNESYINLKEVGTYEMYVKWPW</Hsp_hseq>
+      <Hsp_midline>+N +++++  E++R+ +  K LNES I+L+E+G YE Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:sptrembl|Q83331|Q83331</Hit_id>
+  <Hit_def>S glycoprotein.//:gp|U14646|561672 S glycoprotein [murine hepatitis virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q83331|Q83331</Hit_accession>
+  <Hit_len>1361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.2599</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>8.25781e-017</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1261</Hsp_hit-from>
+      <Hsp_hit-to>1303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>LNVTFLDLTDEMNRIQDAIKKLNESYINLKEVGTYEMYVKWPW</Hsp_hseq>
+      <Hsp_midline>+N + +++  E++R+ +  K LNES I+L+E+G YE Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>/:swiss|P11225|VGL2_CVMJH</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein) [Contains: Spike protein S1 (90B); Spike protein S2 (90A)].//:swissnew|P11225|VGL2_CVMJH E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein) [Contains: Spike protein S1 (90B); Spike protein S2 (90A)].//:gp|X04797|58980 surface projection glycoprotein [murine hepatitis virus]//:gp|D00093|222098 surface projection glycoprotein [murine hepatitis virus]</Hit_def>
+  <Hit_accession>/:swiss|P11225|VGL2_CVMJH</Hit_accession>
+  <Hit_len>1235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.8747</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>1.07496e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1135</Hsp_hit-from>
+      <Hsp_hit-to>1177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>LNVTFLDLTYEMNRIQDAIKKLNESYINLKEVGTYEMYVKWPW</Hsp_hseq>
+      <Hsp_midline>+N + +++  E++R+ +  K LNES I+L+E+G YE Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>/:swiss|P25190|VGL2_CVBF</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein) [Contains: Spike protein S1 (90B); Spike protein S2 (90A)].//:gp|D00731|221137 spike glycoprotein precursor [bovine coronavirus]</Hit_def>
+  <Hit_accession>/:swiss|P25190|VGL2_CVBF</Hit_accession>
+  <Hit_len>1363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4895</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>1.43973e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1266</Hsp_hit-from>
+      <Hsp_hit-to>1308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>INVTFLDLQDEMNRLQEAIKLLNQSYINLKDIGTYEYYVKWPW</Hsp_hseq>
+      <Hsp_midline>IN + +++Q E++RL E  K LN+S I+L+++G YE Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>/:sptrembl|Q82666|Q82666</Hit_id>
+  <Hit_def>Spike protein.//:gp|X87238|1321872 spike protein [Avian infectious bronchitis virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q82666|Q82666</Hit_accession>
+  <Hit_len>1166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7191</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>3.02328e-016</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1060</Hsp_hit-from>
+      <Hsp_hit-to>1098</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>VVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>VLNISNEIDRIQEAIQGLNDSLIDLETLSILKTYIKWPW</Hsp_hseq>
+      <Hsp_midline>V+NI  EIDR+ E  + LN+SLIDL+ L   + YIKWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>/:tremblnew|AAM77000|AAM77000</Hit_id>
+  <Hit_def>Spike glycoprotein.</Hit_def>
+  <Hit_accession>/:tremblnew|AAM77000|AAM77000</Hit_accession>
+  <Hit_len>1349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.3339</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>3.2667e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1252</Hsp_hit-from>
+      <Hsp_hit-to>1294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>INVTFLDLQDEMNRLQEAIKVLNHSYINLKDIGTYEYYVKWPW</Hsp_hseq>
+      <Hsp_midline>IN + +++Q E++RL E  K LN S I+L+++G YE Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>/:sptrembl|Q9E128|Q9E128</Hit_id>
+  <Hit_def>Spike glycoprotein S2 subunit (Fragment).//:gp|AF288146|11038442 spike glycoprotein S2 subunit [Avian infectious bronchitis virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9E128|Q9E128</Hit_accession>
+  <Hit_len>625</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.1783</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>7.96983e-016</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>517</Hsp_hit-from>
+      <Hsp_hit-to>557</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>ASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>VPILNISGEIDRIQGVIQGLNDSLIDLEELSIIKTYIKWPW</Hsp_hseq>
+      <Hsp_midline>  ++NI  EIDR+  V + LN+SLIDL+EL   + YIKWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>/:sptrembl|Q98WQ0|Q98WQ0</Hit_id>
+  <Hit_def>Spike glycoprotein, S2 subunit (Fragment).//:gp|AY024337|13378217 spike glycoprotein, S2 subunit [Avian infectious bronchitis virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q98WQ0|Q98WQ0</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0227</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>2.42314e-015</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>524</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>VVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>VLNISNEIDKIQEVIQGLNDSIIDLETLSILKTYIKWPW</Hsp_hseq>
+      <Hsp_midline>V+NI  EID++ EV + LN+S+IDL+ L   + YIKWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>/:swiss|P11223|VGL2_IBVB</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein) [Contains: Spike protein S1; Spike protein S2].//:pironly|S14939|S14939 E2 glycoprotein precursor - avian infectious bronchitis virus (strain M42-H)//:tremblnew|CAC39114|CAC39114 S protein.//:gp|A12747|491456 IBV Spike protein [synthetic construct]//:gp|X02342|58962 IBV spike precursor [Avian infectious bronchitis virus]//:gp|M95169|292954 spike protein [Avian infectious bronchitis virus]//:gp|AJ311317|14149035 S protein [Avian infectious bronchitis virus]//:remtrembl|CAA01056|CAA01056 IBV SPIKE PROTEIN.//:remtrembl|E972041|E972041 IBV BEAUDETTE STRAIN SPIKE PROTEIN.</Hit_def>
+  <Hit_accession>/:swiss|P11223|VGL2_IBVB</Hit_accession>
+  <Hit_len>1162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.6375</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>2.82298e-015</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1054</Hsp_hit-from>
+      <Hsp_hit-to>1094</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>ASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>VPILDIDSEIDRIQGVIQGLNDSLIDLEKLSILKTYIKWPW</Hsp_hseq>
+      <Hsp_midline>  +++I  EIDR+  V + LN+SLIDL++L   + YIKWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>/:sptrembl|Q64930|Q64930</Hit_id>
+  <Hit_def>Spike protein precursor.//:gp|U04739|806410 spike protein precursor [Avian infectious bronchitis virus]//:gp|U49858|2058398 spike protein [Avian infectious bronchitis virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q64930|Q64930</Hit_accession>
+  <Hit_len>1168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.6375</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>3.43125e-015</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1062</Hsp_hit-from>
+      <Hsp_hit-to>1100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>VVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>VLNIIYDIDKIEEVIKGLNDSLIDLETLSILKTYIKWPW</Hsp_hseq>
+      <Hsp_midline>V+NI  +ID++ EV K LN+SLIDL+ L   + YIKWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>/:swiss|P05135|VGL2_IBV6</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein) [Contains: Spike protein S1; Spike protein S2].//:gp|X04723|58960 IBV spike protein [Avian infectious bronchitis virus]</Hit_def>
+  <Hit_accession>/:swiss|P05135|VGL2_IBV6</Hit_accession>
+  <Hit_len>1163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.2523</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>4.21167e-015</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1055</Hsp_hit-from>
+      <Hsp_hit-to>1095</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>ASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>VPILDIGSEIDRIQGVIQGLNDSLIDLETLSILKTYIKWPW</Hsp_hseq>
+      <Hsp_midline>  +++I  EIDR+  V + LN+SLIDL+ L   + YIKWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>/:sptrembl|Q8QQ98|Q8QQ98</Hit_id>
+  <Hit_def>Spike protein.</Hit_def>
+  <Hit_accession>/:sptrembl|Q8QQ98|Q8QQ98</Hit_accession>
+  <Hit_len>1386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.4819</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>8.33415e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1272</Hsp_hit-from>
+      <Hsp_hit-to>1328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEI--------------DRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>FNATYLNLTGEIADLEQRSESLRNTTEELRSLIYNINNTLVDLEWLNRVETYIKWPW</Hsp_hseq>
+      <Hsp_midline> NA+ +N+  EI              + L  +  N+N +L+DL+ L + E YIKWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>/:swiss|P15423|VGL2_CVH22</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein).//:tremblnew|AAG48592|AAG48592 Surface glycoprotein.//:gp|X16816|58927 precursor (AA-15 to 1158) [Human coronavirus 229E]//:gp|AF304460|12082741 surface glycoprotein [Human coronavirus 229E]</Hit_def>
+  <Hit_accession>/:swiss|P15423|VGL2_CVH22</Hit_accession>
+  <Hit_len>1173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3263</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>2.08719e-014</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1061</Hsp_hit-from>
+      <Hsp_hit-to>1116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>NASVVNIQKEI--------------DRLNEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>NQTILNLTSEISTLENKSAELNYTVQKLQTLIDNINSTLVDLKWLNRVETYIKWPW</Hsp_hseq>
+      <Hsp_midline>N +++N+  EI               +L  +  N+N +L+DL+ L + E YIKWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>/:sptrembl|Q66928|Q66928</Hit_id>
+  <Hit_def>Spike glycoprotein.//:gp|X80799|1155077 Spike glycoprotein [feline coronavirus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q66928|Q66928</Hit_accession>
+  <Hit_len>1454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.1707</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>5.53649e-014</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1340</Hsp_hit-from>
+      <Hsp_hit-to>1396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEIDRLN--------------EVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>FNATYLNLTGEIDDLEFRSEKLHNTTVELAILIDNINNTLVNLEWLNRIETYVKWPW</Hsp_hseq>
+      <Hsp_midline> NA+ +N+  EID L                +  N+N +L++L+ L + E Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>/:swiss|P18450|VGL2_CVPFS</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein).//:gp|X53128|61379 spike protein precursor [Transmissible gastroenteritis virus]</Hit_def>
+  <Hit_accession>/:swiss|P18450|VGL2_CVPFS</Hit_accession>
+  <Hit_len>1449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0151</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>1.18576e-013</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1335</Hsp_hit-from>
+      <Hsp_hit-to>1391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEIDRLN--------------EVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>FNATYLNLTGEIDDLEFRSEKLHNTTVELAILIDNINNTLVNLEWLNRIETYVKWPW</Hsp_hseq>
+      <Hsp_midline> NA+ +N+  EID L                +  N+N +L++L+ L + E Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>/:tremblnew|BAC05493|BAC05493</Hit_id>
+  <Hit_def>Peplomer protein.</Hit_def>
+  <Hit_accession>/:tremblnew|BAC05493|BAC05493</Hit_accession>
+  <Hit_len>1462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.2447</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>2.30348e-013</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1348</Hsp_hit-from>
+      <Hsp_hit-to>1404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEIDRL--------------NEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>FNQTKLNLTAEIDQLEQRADNLTTIAHELQQYIDNLNKTLVDLEWLNRIETYVKWPW</Hsp_hseq>
+      <Hsp_midline> N + +N+  EID+L               +   NLN++L+DL+ L + E Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>/:sptrembl|Q66951|Q66951</Hit_id>
+  <Hit_def>E2 glycoprotein precursor (Spike glycoprotein) (Peplomer protein).//:gp|D32044|975637 peplomer protein [feline infectious peritonitis virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q66951|Q66951</Hit_accession>
+  <Hit_len>1464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.8595</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>3.79059e-013</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1350</Hsp_hit-from>
+      <Hsp_hit-to>1406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>INASVVNIQKEIDRL--------------NEVAKNLNESLIDLQELGKYEQYIKWPW</Hsp_qseq>
+      <Hsp_hseq>FNQTKLNLTAEIDQLEQRADNLTTIAHELQQYIDNLNKTLVDLDWLNRIETYVKWPW</Hsp_hseq>
+      <Hsp_midline> N + +N+  EID+L               +   NLN++L+DL  L + E Y+KWPW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>4394707018</Statistics_eff-space>
+      <Statistics_kappa>0.0426317451060965</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>lcl|Query_1 Non-AVP_0470 hello:  lcl|Query_1 Non-AVP_0470 hello: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics </Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,650 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.4.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>./psiblast/nrdb90/nrdb90</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Non-AVP_0392 hello</BlastOutput_query-def>
+  <BlastOutput_query-len>22</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Non-AVP_0392 hello</Iteration_query-def>
+  <Iteration_query-len>22</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:swiss|P02647|APA1_HUMAN</Hit_id>
+  <Hit_def>Apolipoprotein A-I precursor (Apo-AI).//:swissnew|P02647|APA1_HUMAN Apolipoprotein A-I precursor (Apo-AI).//:gp|A14829|512410 preproapolipoprotein [Homo sapiens]//:gp|A58403|3714058 HUMAN APO AI CDNA [unidentified]//:gp|M27875|178773 proapolipoprotein [Homo sapiens]//:gp|X00566|732753 apoAI protein [Homo sapiens]//:gp|X01038|296635 apolipoprotein AI precursor [Homo sapiens]//:gp|X02162|28772 preproapolipoprotein AI [Homo sapiens]//:gp|X07496|296729 ApoA-I [Homo sapiens]//:gp|BC005380|13529242 apolipoprotein A-I [Homo sapiens]//:gp|J00098|178768 preproapolipoprotein A-I [Homo sapiens]//:ensembl|ENSP00000236850|ENSG00000118137 Clone:AC007707 Contig:AC007707.13.1.188971 Chr:chr11 basepair:128722113//:ensembl|ENSP00000260208|ENSG00000137654 Clone:AC087065 Contig:AC087065.4.1.40752 Chr:chr11 basepair:128953028//:remtrembl|CAA03488|CAA03488 HUMAN APO AI CDNA.//:remtrembl|E974220|E974220 H.SAPIENS PREPROAPOLIPOPROTEIN.</Hit_def>
+  <Hit_accession>/:swiss|P02647|APA1_HUMAN</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.9157e-008</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKVE</Hsp_qseq>
+      <Hsp_hseq>PYLDDFQKKWQEEMELYRQKVE</Hsp_hseq>
+      <Hsp_midline>PYLDDFQKKWQEEMELYRQKVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:swiss|P02648|APA1_CANFA</Hit_id>
+  <Hit_def>Apolipoprotein A-I precursor (Apo-AI).//:swissnew|P02648|APA1_CANFA Apolipoprotein A-I precursor (Apo-AI).</Hit_def>
+  <Hit_accession>/:swiss|P02648|APA1_CANFA</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>2.37473e-007</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKV</Hsp_qseq>
+      <Hsp_hseq>PYLDDFQKKWQEEVELYRQKV</Hsp_hseq>
+      <Hsp_midline>PYLDDFQKKWQEE+ELYRQKV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:swiss|P09809|APA1_RABIT</Hit_id>
+  <Hit_def>Apolipoprotein A-I precursor (Apo-AI).//:swissnew|P09809|APA1_RABIT Apolipoprotein A-I precursor (Apo-AI).//:gp|X15908|1458 apolipoprotein A-I (AA 1-266) [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>/:swiss|P09809|APA1_RABIT</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>2.64051e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKVE</Hsp_qseq>
+      <Hsp_hseq>PYLDEFQKKWQEEVERYRQKVE</Hsp_hseq>
+      <Hsp_midline>PYLD+FQKKWQEE+E YRQKVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>/:swiss|P18648|APA1_PIG</Hit_id>
+  <Hit_def>Apolipoprotein A-I precursor (Apo-AI).//:swissnew|P18648|APA1_PIG Apolipoprotein A-I precursor (Apo-AI).</Hit_def>
+  <Hit_accession>/:swiss|P18648|APA1_PIG</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>4.27592e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKV</Hsp_qseq>
+      <Hsp_hseq>PYLDDFQNKWQEEMETYRQKM</Hsp_hseq>
+      <Hsp_midline>PYLDDFQ KWQEEME YRQK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>/:swiss|P15497|APA1_BOVIN</Hit_id>
+  <Hit_def>Apolipoprotein A-I precursor (Apo-AI).//:swissnew|P15497|APA1_BOVIN Apolipoprotein A-I precursor (Apo-AI).</Hit_def>
+  <Hit_accession>/:swiss|P15497|APA1_BOVIN</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>9.77408e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKV</Hsp_qseq>
+      <Hsp_hseq>PYLDEFQKKWHEEVEIYRQKV</Hsp_hseq>
+      <Hsp_midline>PYLD+FQKKW EE+E+YRQKV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>/:swiss|Q00623|APA1_MOUSE</Hit_id>
+  <Hit_def>Apolipoprotein A-I precursor (Apo-AI).//:swissnew|Q00623|APA1_MOUSE Apolipoprotein A-I precursor (Apo-AI).//:tremblnew|AAH12253|AAH12253 Similar to apolipoprotein A-I.//:gp|X64262|50015 precursor Apoprotein A-I [Mus musculus]//:gp|X64263|50021 Apolipoprotein A-I [Mus musculus]//:gp|BC012253|15126646 Similar to apolipoprotein A-I [Mus musculus]//:gpnew|BC019837|18043763 apolipoprotein A-I [Homo sapiens]</Hit_def>
+  <Hit_accession>/:swiss|Q00623|APA1_MOUSE</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>1.50612e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKV</Hsp_qseq>
+      <Hsp_hseq>PYLDEFQKKWKEDVELYRQKV</Hsp_hseq>
+      <Hsp_midline>PYLD+FQKKW+E++ELYRQKV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>/:tremblnew|AAM76627|AAM76627</Hit_id>
+  <Hit_def>Apolipoprotein A-I (Fragment).</Hit_def>
+  <Hit_accession>/:tremblnew|AAM76627|AAM76627</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>3.17992e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKVE</Hsp_qseq>
+      <Hsp_hseq>PYLDDFQKKWEEEVNIYSQKLE</Hsp_hseq>
+      <Hsp_midline>PYLDDFQKKW+EE+ +Y QK+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>/:sptrembl|Q9Z2L4|Q9Z2L4</Hit_id>
+  <Hit_def>Apolipoprotein A-I.//:gp|AF046919|4063843 apolipoprotein A-I [Mesocricetus auratus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9Z2L4|Q9Z2L4</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>5.96172e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKVE</Hsp_qseq>
+      <Hsp_hseq>PYLDQFQTKWQEEVALYRQKME</Hsp_hseq>
+      <Hsp_midline>PYLD FQ KWQEE+ LYRQK+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>/:swiss|O18759|APA1_TUPGB</Hit_id>
+  <Hit_def>Apolipoprotein A-I precursor (Apo-AI).//:swissnew|O18759|APA1_TUPGB Apolipoprotein A-I precursor (Apo-AI).//:gp|AF005638|2576402 apolipoprotein AI prepropeptide [Tupaia glis]</Hit_def>
+  <Hit_accession>/:swiss|O18759|APA1_TUPGB</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.000100329</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKVE</Hsp_qseq>
+      <Hsp_hseq>PFLDEIQKKWQEDLERYRQKVE</Hsp_hseq>
+      <Hsp_midline>P+LD+ QKKWQE++E YRQKVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>/:sptrembl|Q9TS49|Q9TS49</Hit_id>
+  <Hit_def>Apolipoprotein A-I, APOA-I=CHOLESTEROL transporter.</Hit_def>
+  <Hit_accession>/:sptrembl|Q9TS49|Q9TS49</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.000180088</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKV</Hsp_qseq>
+      <Hsp_hseq>PYLDSFQKKVEEELELYRQKV</Hsp_hseq>
+      <Hsp_midline>PYLD FQKK +EE+ELYRQKV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>/:swiss|P04639|APA1_RAT</Hit_id>
+  <Hit_def>Apolipoprotein A-I precursor (Apo-AI).//:swissnew|P04639|APA1_RAT Apolipoprotein A-I precursor (Apo-AI).//:gp|X00558|55747 preproapolipoprotein A-I [Rattus norvegicus]</Hit_def>
+  <Hit_accession>/:swiss|P04639|APA1_RAT</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.000412351</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKVE</Hsp_qseq>
+      <Hsp_hseq>PHLDEFQEKWNEEVEAYRQKLE</Hsp_hseq>
+      <Hsp_midline>P+LD+FQ+KW EE+E YRQK+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>3918664310</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Non-AVP_0392 hello</Iteration_query-def>
+  <Iteration_query-len>22</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:swiss|P02647|APA1_HUMAN</Hit_id>
+  <Hit_def>Apolipoprotein A-I precursor (Apo-AI).//:swissnew|P02647|APA1_HUMAN Apolipoprotein A-I precursor (Apo-AI).//:gp|A14829|512410 preproapolipoprotein [Homo sapiens]//:gp|A58403|3714058 HUMAN APO AI CDNA [unidentified]//:gp|M27875|178773 proapolipoprotein [Homo sapiens]//:gp|X00566|732753 apoAI protein [Homo sapiens]//:gp|X01038|296635 apolipoprotein AI precursor [Homo sapiens]//:gp|X02162|28772 preproapolipoprotein AI [Homo sapiens]//:gp|X07496|296729 ApoA-I [Homo sapiens]//:gp|BC005380|13529242 apolipoprotein A-I [Homo sapiens]//:gp|J00098|178768 preproapolipoprotein A-I [Homo sapiens]//:ensembl|ENSP00000236850|ENSG00000118137 Clone:AC007707 Contig:AC007707.13.1.188971 Chr:chr11 basepair:128722113//:ensembl|ENSP00000260208|ENSG00000137654 Clone:AC087065 Contig:AC087065.4.1.40752 Chr:chr11 basepair:128953028//:remtrembl|CAA03488|CAA03488 HUMAN APO AI CDNA.//:remtrembl|E974220|E974220 H.SAPIENS PREPROAPOLIPOPROTEIN.</Hit_def>
+  <Hit_accession>/:swiss|P02647|APA1_HUMAN</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.6922</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>4.43392e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKVE</Hsp_qseq>
+      <Hsp_hseq>PYLDDFQKKWQEEMELYRQKVE</Hsp_hseq>
+      <Hsp_midline>PYLDDFQKKWQEEMELYRQKVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:swiss|P02648|APA1_CANFA</Hit_id>
+  <Hit_def>Apolipoprotein A-I precursor (Apo-AI).//:swissnew|P02648|APA1_CANFA Apolipoprotein A-I precursor (Apo-AI).</Hit_def>
+  <Hit_accession>/:swiss|P02648|APA1_CANFA</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9218</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>7.249e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKV</Hsp_qseq>
+      <Hsp_hseq>PYLDDFQKKWQEEVELYRQKV</Hsp_hseq>
+      <Hsp_midline>PYLDDFQKKWQEE+ELYRQKV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:swiss|P09809|APA1_RABIT</Hit_id>
+  <Hit_def>Apolipoprotein A-I precursor (Apo-AI).//:swissnew|P09809|APA1_RABIT Apolipoprotein A-I precursor (Apo-AI).//:gp|X15908|1458 apolipoprotein A-I (AA 1-266) [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>/:swiss|P09809|APA1_RABIT</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9218</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>7.68981e-006</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKVE</Hsp_qseq>
+      <Hsp_hseq>PYLDEFQKKWQEEVERYRQKVE</Hsp_hseq>
+      <Hsp_midline>PYLD+FQKKWQEE+E YRQKVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>/:swiss|O18759|APA1_TUPGB</Hit_id>
+  <Hit_def>Apolipoprotein A-I precursor (Apo-AI).//:swissnew|O18759|APA1_TUPGB Apolipoprotein A-I precursor (Apo-AI).//:gp|AF005638|2576402 apolipoprotein AI prepropeptide [Tupaia glis]</Hit_def>
+  <Hit_accession>/:swiss|O18759|APA1_TUPGB</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.381</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>2.42886e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKVE</Hsp_qseq>
+      <Hsp_hseq>PFLDEIQKKWQEDLERYRQKVE</Hsp_hseq>
+      <Hsp_midline>P+LD+ QKKWQE++E YRQKVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>/:swiss|P04639|APA1_RAT</Hit_id>
+  <Hit_def>Apolipoprotein A-I precursor (Apo-AI).//:swissnew|P04639|APA1_RAT Apolipoprotein A-I precursor (Apo-AI).//:gp|X00558|55747 preproapolipoprotein A-I [Rattus norvegicus]</Hit_def>
+  <Hit_accession>/:swiss|P04639|APA1_RAT</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.381</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>2.62287e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKVE</Hsp_qseq>
+      <Hsp_hseq>PHLDEFQEKWNEEVEAYRQKLE</Hsp_hseq>
+      <Hsp_midline>P+LD+FQ+KW EE+E YRQK+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>/:swiss|P15497|APA1_BOVIN</Hit_id>
+  <Hit_def>Apolipoprotein A-I precursor (Apo-AI).//:swissnew|P15497|APA1_BOVIN Apolipoprotein A-I precursor (Apo-AI).</Hit_def>
+  <Hit_accession>/:swiss|P15497|APA1_BOVIN</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.381</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>2.92746e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKV</Hsp_qseq>
+      <Hsp_hseq>PYLDEFQKKWHEEVEIYRQKV</Hsp_hseq>
+      <Hsp_midline>PYLD+FQKKW EE+E+YRQKV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>/:sptrembl|Q9Z2L4|Q9Z2L4</Hit_id>
+  <Hit_def>Apolipoprotein A-I.//:gp|AF046919|4063843 apolipoprotein A-I [Mesocricetus auratus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9Z2L4|Q9Z2L4</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.9958</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>3.16616e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKVE</Hsp_qseq>
+      <Hsp_hseq>PYLDQFQTKWQEEVALYRQKME</Hsp_hseq>
+      <Hsp_midline>PYLD FQ KWQEE+ LYRQK+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>/:swiss|P18648|APA1_PIG</Hit_id>
+  <Hit_def>Apolipoprotein A-I precursor (Apo-AI).//:swissnew|P18648|APA1_PIG Apolipoprotein A-I precursor (Apo-AI).</Hit_def>
+  <Hit_accession>/:swiss|P18648|APA1_PIG</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6106</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>5.43587e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKV</Hsp_qseq>
+      <Hsp_hseq>PYLDDFQNKWQEEMETYRQKM</Hsp_hseq>
+      <Hsp_midline>PYLDDFQ KWQEEME YRQK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>/:swiss|Q00623|APA1_MOUSE</Hit_id>
+  <Hit_def>Apolipoprotein A-I precursor (Apo-AI).//:swissnew|Q00623|APA1_MOUSE Apolipoprotein A-I precursor (Apo-AI).//:tremblnew|AAH12253|AAH12253 Similar to apolipoprotein A-I.//:gp|X64262|50015 precursor Apoprotein A-I [Mus musculus]//:gp|X64263|50021 Apolipoprotein A-I [Mus musculus]//:gp|BC012253|15126646 Similar to apolipoprotein A-I [Mus musculus]//:gpnew|BC019837|18043763 apolipoprotein A-I [Homo sapiens]</Hit_def>
+  <Hit_accession>/:swiss|Q00623|APA1_MOUSE</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.8402</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>8.79418e-005</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKV</Hsp_qseq>
+      <Hsp_hseq>PYLDEFQKKWKEDVELYRQKV</Hsp_hseq>
+      <Hsp_midline>PYLD+FQKKW+E++ELYRQKV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>/:tremblnew|AAM76627|AAM76627</Hit_id>
+  <Hit_def>Apolipoprotein A-I (Fragment).</Hit_def>
+  <Hit_accession>/:tremblnew|AAM76627|AAM76627</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.0698</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.000135038</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>PYLDDFQKKWQEEMELYRQKVE</Hsp_qseq>
+      <Hsp_hseq>PYLDDFQKKWEEEVNIYSQKLE</Hsp_hseq>
+      <Hsp_midline>PYLDDFQKKW+EE+ +Y QK+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>3918664310</Statistics_eff-space>
+      <Statistics_kappa>0.0422541636602161</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>lcl|Query_1 Non-AVP_0392 hello:  lcl|Query_1 Non-AVP_0392 hello: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics </Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

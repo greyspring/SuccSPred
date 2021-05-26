@@ -1,0 +1,1742 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.4.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>./psiblast/nrdb90/nrdb90</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Non-AVP_0426 hello</BlastOutput_query-def>
+  <BlastOutput_query-len>30</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Non-AVP_0426 hello</Iteration_query-def>
+  <Iteration_query-len>30</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:pironly|PQ0813|PQ0813</Hit_id>
+  <Hit_def>glycoprotein E1 - hog cholera virus (fragment)</Hit_def>
+  <Hit_accession>/:pironly|PQ0813|PQ0813</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>7.74957e-017</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>323</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:sptrembl|Q9PZ97|Q9PZ97</Hit_id>
+  <Hit_def>Polyprotein.//:gp|AF144618|15282444 polyprotein [pestivirus reindeer-1 V60-Krefeld]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9PZ97|Q9PZ97</Hit_accession>
+  <Hit_len>3895</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.84067e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>991</Hsp_hit-from>
+      <Hsp_hit-to>1020</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TLKN+YYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:sptrembl|Q68511|Q68511</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|U43924|1209777 envelope glycoprotein [Classical swine fever virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q68511|Q68511</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>2.74161e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TLKN+YYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>/:sptrembl|Q9WHS8|Q9WHS8</Hit_id>
+  <Hit_def>Polyprotein (Fragment).//:gp|AF134207|4512207 polyprotein [Classical swine fever virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9WHS8|Q9WHS8</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.6765e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLRNKYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TL+N+YYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>/:sptrembl|Q9IFH8|Q9IFH8</Hit_id>
+  <Hit_def>Polyprotein.//:gp|AF268278|9049957 polyprotein [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9IFH8|Q9IFH8</Hit_accession>
+  <Hit_len>4040</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.73357e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>1046</Hsp_hit-from>
+      <Hsp_hit-to>1075</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDSYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRDSYFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>/:sptrembl|Q65815|Q65815</Hit_id>
+  <Hit_def>Polyprotein.//:gp|M96687|323230 polyprotein [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q65815|Q65815</Hit_accession>
+  <Hit_len>3975</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>2.23409e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>995</Hsp_hit-from>
+      <Hsp_hit-to>1024</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYYEPRDNYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+YYEPRD+YFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>/:sptrembl|O71954|O71954</Hit_id>
+  <Hit_def>Polyprotein (Fragment).//:gp|AF049221|14113965 polyprotein [bovine viral diarrhea virus strain Bega]</Hit_def>
+  <Hit_accession>/:sptrembl|O71954|O71954</Hit_accession>
+  <Hit_len>1133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>3.43307e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>994</Hsp_hit-from>
+      <Hsp_hit-to>1023</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDSYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRDSYFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>/:swiss|P19712|POLG_HCVA</Hit_id>
+  <Hit_def>Genome polyprotein.//:gp|J04358|5733834 polyprotein [Classical swine fever virus]</Hit_def>
+  <Hit_accession>/:swiss|P19712|POLG_HCVA</Hit_accession>
+  <Hit_len>3898</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>3.7103e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>990</Hsp_hit-from>
+      <Hsp_hit-to>1019</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLRNKYYEPRDSYFQQYMLKGEYQYWFNLD</Hsp_hseq>
+      <Hsp_midline>TL+N+YYEPRDSYFQQYMLKGEYQYWF+LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>/:swiss|Q01499|POLG_BVDVS</Hit_id>
+  <Hit_def>Genome polyprotein.//:gp|M96751|289508 polyprotein [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:swiss|Q01499|POLG_BVDVS</Hit_accession>
+  <Hit_len>3898</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>8.58511e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>994</Hsp_hit-from>
+      <Hsp_hit-to>1023</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDSYFQQYMLKGDYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRDSYFQQYMLKG+YQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>/:sptrembl|Q96662|Q96662</Hit_id>
+  <Hit_def>POLYPROTEIN.//:gp|U63479|1518836 polyprotein [pestivirus type 1]//:gp|AF220247|9836968 polyprotein [Bovine viral diarrhea virus-1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q96662|Q96662</Hit_accession>
+  <Hit_len>3907</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>1.0233e-014</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>994</Hsp_hit-from>
+      <Hsp_hit-to>1023</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDNYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRD+YFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>/:sptrembl|Q9WP29|Q9WP29</Hit_id>
+  <Hit_def>Polyprotein (Fragment).//:gp|AF145968|5052730 polyprotein [Bovine viral diarrhea virus genotype 2]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9WP29|Q9WP29</Hit_accession>
+  <Hit_len>1160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.28055e-014</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>992</Hsp_hit-from>
+      <Hsp_hit-to>1021</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLPNKYYEPRDRYFQQYMLKGEWQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TL N+YYEPRD YFQQYMLKGE+QYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>/:sptrembl|Q65786|Q65786</Hit_id>
+  <Hit_def>Polyprotein.//:gp|U18059|902377 polyprotein [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q65786|Q65786</Hit_accession>
+  <Hit_len>3973</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>1.8736e-014</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>992</Hsp_hit-from>
+      <Hsp_hit-to>1021</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLPNKYYEPRDRYFQQYMLKGEWQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TL N+YYEPRD YFQQYMLKGE+QYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>/:tremblnew|AAM91913|AAM91913</Hit_id>
+  <Hit_def>Polyprotein.</Hit_def>
+  <Hit_accession>/:tremblnew|AAM91913|AAM91913</Hit_accession>
+  <Hit_len>3913</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>2.51089e-014</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>992</Hsp_hit-from>
+      <Hsp_hit-to>1021</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLPNKYYEPRDRYFQQYMLKGEWQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TL N+YYEPRD YFQQYMLKGE+QYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>/:sptrembl|O71957|O71957</Hit_id>
+  <Hit_def>Polyprotein (Fragment).//:gp|AF049224|2981421 polyprotein [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:sptrembl|O71957|O71957</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>2.53372e-014</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>356</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLSNKYFEPRDSYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TL N+Y+EPRDSYFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>/:sptrembl|P87514|P87514</Hit_id>
+  <Hit_def>Polyprotein.//:gp|U70263|1703498 polyprotein [Border disease virus strain BD31]</Hit_def>
+  <Hit_accession>/:sptrembl|P87514|P87514</Hit_accession>
+  <Hit_len>3896</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>2.85052e-014</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>991</Hsp_hit-from>
+      <Hsp_hit-to>1020</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLENKYYEPRDNYFQQYMLKGQYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TL+N+YYEPRD+YFQQYMLKG+YQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>/:sptrembl|Q65465|Q65465</Hit_id>
+  <Hit_def>Polyprotein, structural protein, glycoprotein (Fragment).//:pironly|B49596|B49596 genome polyprotein - border disease virus (isolate L83/84) (fragment)//:gp|U00890|453997 polyprotein; structural protein; glycoprotein [Border disease virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q65465|Q65465</Hit_accession>
+  <Hit_len>585</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>3.79424e-014</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>505</Hsp_hit-from>
+      <Hsp_hit-to>534</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLENKYYEPRDNYFQQYMLKGQYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TL+N+YYEPRD+YFQQYMLKG+YQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>/:sptrembl|O11993|O11993</Hit_id>
+  <Hit_def>Pestivirus type 1 cytopathic genomic RNA, complete genome.//:gp|U86599|2149467 predicted to encode 4983 amino acids with a predicted molecular mass of 558 kDa; ILLC-BVDV ORF [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:sptrembl|O11993|O11993</Hit_accession>
+  <Hit_len>4983</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>4.50528e-014</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>995</Hsp_hit-from>
+      <Hsp_hit-to>1024</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKKKYFEPRDNYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLK +Y+EPRD+YFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>/:sptrembl|Q9QJU4|Q9QJU4</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:gp|AF144610|6049243 structural glycoprotein E2 [Bovine viral diarrhea virus-1 isolate 519]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9QJU4|Q9QJU4</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>6.05638e-014</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLNNKYFEPRDSYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TL N+Y+EPRDSYFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>/:tremblnew|AAM88294|AAM88294</Hit_id>
+  <Hit_def>E2 glycoprotein (Fragment).</Hit_def>
+  <Hit_accession>/:tremblnew|AAM88294|AAM88294</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>6.58364e-014</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDSYFQQYMLKGEYQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRDSYFQQYMLKGEYQYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>/:sptrembl|Q91HK0|Q91HK0</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:gp|AY027674|15283991 structural glycoprotein E2 [Bovine viral diarrhea virus genotype 2]</Hit_def>
+  <Hit_accession>/:sptrembl|Q91HK0|Q91HK0</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>6.88585e-014</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLPNKYYEPRDRYFQQYMLKGEWQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TL N+YYEPRD YFQQYMLKGE+QYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>/:sptrembl|Q9JGJ0|Q9JGJ0</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:gp|AB033753|7637403 structural glycoprotein E2 [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9JGJ0|Q9JGJ0</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>7.32779e-014</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDNYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRD+YFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>/:sptrembl|Q8QP47|Q8QP47</Hit_id>
+  <Hit_def>Polyprotein (Fragment).</Hit_def>
+  <Hit_accession>/:sptrembl|Q8QP47|Q8QP47</Hit_accession>
+  <Hit_len>1080</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.75165e-013</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>993</Hsp_hit-from>
+      <Hsp_hit-to>1022</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLTNKYFEPRDNYFQQYMLKGDYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TL N+Y+EPRD+YFQQYMLKG+YQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>/:sptrembl|Q9PYB2|Q9PYB2</Hit_id>
+  <Hit_def>Polyprotein.//:gp|AF144617|15282442 polyprotein [pestivirus giraffe-1 H138]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9PYB2|Q9PYB2</Hit_accession>
+  <Hit_len>3989</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.87454e-013</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>990</Hsp_hit-from>
+      <Hsp_hit-to>1018</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDL</Hsp_qseq>
+      <Hsp_hseq>TLENKYFEPRDEYFQQYMLKGKYQYWFDL</Hsp_hseq>
+      <Hsp_midline>TL+N+Y+EPRD YFQQYMLKG+YQYWFDL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>/:sptrembl|Q9QJU3|Q9QJU3</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:gp|AF144613|6049246 structural glycoprotein E2 [Bovine viral diarrhea virus-2 isolate SCP]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9QJU3|Q9QJU3</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.8836e-013</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLPNKYYEPRDRYFQQYMLKGEWQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TL N+YYEPRD YFQQYMLKGE+QYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>/:sptrembl|Q9PYB3|Q9PYB3</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:sptrembl|Q9WAA4|Q9WAA4 Polyprotein (Fragment).//:gp|Y19123|5420141 polyprotein [Bovine viral diarrhea virus-1 strain C86]//:gp|AF144611|6049244 structural glycoprotein E2 [Bovine viral diarrhea virus-1 strain C86]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9PYB3|Q9PYB3</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.80055e-013</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDSYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRDSYFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>/:sptrembl|Q9JGJ1|Q9JGJ1</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:gp|AB033752|7637401 structural glycoprotein E2 [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9JGJ1|Q9JGJ1</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>2.85627e-013</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDSYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRDSYFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>/:sptrembl|Q91HK3|Q91HK3</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:gp|AY027671|15283985 structural glycoprotein E2 [Bovine viral diarrhea virus-1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q91HK3|Q91HK3</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.07749e-012</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDNYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRD+YFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>/:sptrembl|Q9QJU0|Q9QJU0</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:gp|AF144616|6049249 structural glycoprotein E2 [Bovine viral diarrhea virus-1 isolate SH9]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9QJU0|Q9QJU0</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>2.92113e-011</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLSNKHFEPRDNYFQQYMLKGDYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TL N+++EPRD+YFQQYMLKG+YQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>/:sptrembl|Q9PZ40|Q9PZ40</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:gp|AF144612|6049245 structural glycoprotein E2 [Bovine viral diarrhea virus-2 isolate 230/98-K3 (Gi-6)]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9PZ40|Q9PZ40</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>5.68537e-011</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLPNKYYEPRDRYFQQYMLKGKWQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TL N+YYEPRD YFQQYMLKG++QYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>/:sptrembl|Q68415|Q68415</Hit_id>
+  <Hit_def>Envelope glycoprotein polyprotein (Fragment).//:gp|U35740|1016754 envelope glycoprotein polyprotein [Classical swine fever virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q68415|Q68415</Hit_accession>
+  <Hit_len>745</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>2.26283e-007</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>723</Hsp_hit-from>
+      <Hsp_hit-to>745</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEY</Hsp_qseq>
+      <Hsp_hseq>TLKNRYYEPRDSYFQQDILMAEY</Hsp_hseq>
+      <Hsp_midline>TLKNRYYEPRDSYFQQ +L  EY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>5</Statistics_hsp-len>
+      <Statistics_eff-space>4386160625</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Non-AVP_0426 hello</Iteration_query-def>
+  <Iteration_query-len>30</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:sptrembl|Q65815|Q65815</Hit_id>
+  <Hit_def>Polyprotein.//:gp|M96687|323230 polyprotein [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q65815|Q65815</Hit_accession>
+  <Hit_len>3975</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.8195</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>6.22884e-017</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>995</Hsp_hit-from>
+      <Hsp_hit-to>1024</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYYEPRDNYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+YYEPRD+YFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:sptrembl|Q68511|Q68511</Hit_id>
+  <Hit_def>Envelope glycoprotein (Fragment).//:gp|U43924|1209777 envelope glycoprotein [Classical swine fever virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q68511|Q68511</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.0491</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>9.78008e-017</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TLKN+YYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:sptrembl|Q9IFH8|Q9IFH8</Hit_id>
+  <Hit_def>Polyprotein.//:gp|AF268278|9049957 polyprotein [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9IFH8|Q9IFH8</Hit_accession>
+  <Hit_len>4040</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.0491</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>1.02398e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>1046</Hsp_hit-from>
+      <Hsp_hit-to>1075</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDSYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRDSYFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>/:sptrembl|Q9PZ97|Q9PZ97</Hit_id>
+  <Hit_def>Polyprotein.//:gp|AF144618|15282444 polyprotein [pestivirus reindeer-1 V60-Krefeld]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9PZ97|Q9PZ97</Hit_accession>
+  <Hit_len>3895</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.0491</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>1.03418e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>991</Hsp_hit-from>
+      <Hsp_hit-to>1020</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TLKN+YYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>/:pironly|PQ0813|PQ0813</Hit_id>
+  <Hit_def>glycoprotein E1 - hog cholera virus (fragment)</Hit_def>
+  <Hit_accession>/:pironly|PQ0813|PQ0813</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.6639</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.23134e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>323</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>/:sptrembl|Q9WP29|Q9WP29</Hit_id>
+  <Hit_def>Polyprotein (Fragment).//:gp|AF145968|5052730 polyprotein [Bovine viral diarrhea virus genotype 2]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9WP29|Q9WP29</Hit_accession>
+  <Hit_len>1160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.0491</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>1.24527e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>992</Hsp_hit-from>
+      <Hsp_hit-to>1021</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLPNKYYEPRDRYFQQYMLKGEWQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TL N+YYEPRD YFQQYMLKGE+QYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>/:sptrembl|Q96662|Q96662</Hit_id>
+  <Hit_def>POLYPROTEIN.//:gp|U63479|1518836 polyprotein [pestivirus type 1]//:gp|AF220247|9836968 polyprotein [Bovine viral diarrhea virus-1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q96662|Q96662</Hit_accession>
+  <Hit_len>3907</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.6639</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.31958e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>994</Hsp_hit-from>
+      <Hsp_hit-to>1023</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDNYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRD+YFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>/:sptrembl|Q65786|Q65786</Hit_id>
+  <Hit_def>Polyprotein.//:gp|U18059|902377 polyprotein [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q65786|Q65786</Hit_accession>
+  <Hit_len>3973</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.6639</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.61927e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>992</Hsp_hit-from>
+      <Hsp_hit-to>1021</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLPNKYYEPRDRYFQQYMLKGEWQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TL N+YYEPRD YFQQYMLKGE+QYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>/:tremblnew|AAM91913|AAM91913</Hit_id>
+  <Hit_def>Polyprotein.</Hit_def>
+  <Hit_accession>/:tremblnew|AAM91913|AAM91913</Hit_accession>
+  <Hit_len>3913</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.2787</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>2.25585e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>992</Hsp_hit-from>
+      <Hsp_hit-to>1021</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLPNKYYEPRDRYFQQYMLKGEWQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TL N+YYEPRD YFQQYMLKGE+QYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>/:sptrembl|O71954|O71954</Hit_id>
+  <Hit_def>Polyprotein (Fragment).//:gp|AF049221|14113965 polyprotein [bovine viral diarrhea virus strain Bega]</Hit_def>
+  <Hit_accession>/:sptrembl|O71954|O71954</Hit_accession>
+  <Hit_len>1133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.2787</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>2.27977e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>994</Hsp_hit-from>
+      <Hsp_hit-to>1023</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDSYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRDSYFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>/:swiss|Q01499|POLG_BVDVS</Hit_id>
+  <Hit_def>Genome polyprotein.//:gp|M96751|289508 polyprotein [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:swiss|Q01499|POLG_BVDVS</Hit_accession>
+  <Hit_len>3898</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.8935</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>2.76846e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>994</Hsp_hit-from>
+      <Hsp_hit-to>1023</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDSYFQQYMLKGDYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRDSYFQQYMLKG+YQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>/:sptrembl|P87514|P87514</Hit_id>
+  <Hit_def>Polyprotein.//:gp|U70263|1703498 polyprotein [Border disease virus strain BD31]</Hit_def>
+  <Hit_accession>/:sptrembl|P87514|P87514</Hit_accession>
+  <Hit_len>3896</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.8935</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>3.11209e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>991</Hsp_hit-from>
+      <Hsp_hit-to>1020</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLENKYYEPRDNYFQQYMLKGQYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TL+N+YYEPRD+YFQQYMLKG+YQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>/:sptrembl|O11993|O11993</Hit_id>
+  <Hit_def>Pestivirus type 1 cytopathic genomic RNA, complete genome.//:gp|U86599|2149467 predicted to encode 4983 amino acids with a predicted molecular mass of 558 kDa; ILLC-BVDV ORF [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:sptrembl|O11993|O11993</Hit_accession>
+  <Hit_len>4983</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.1231</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>4.45989e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>995</Hsp_hit-from>
+      <Hsp_hit-to>1024</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKKKYFEPRDNYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLK +Y+EPRD+YFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>/:sptrembl|Q65465|Q65465</Hit_id>
+  <Hit_def>Polyprotein, structural protein, glycoprotein (Fragment).//:pironly|B49596|B49596 genome polyprotein - border disease virus (isolate L83/84) (fragment)//:gp|U00890|453997 polyprotein; structural protein; glycoprotein [Border disease virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q65465|Q65465</Hit_accession>
+  <Hit_len>585</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.5083</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>4.52785e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>505</Hsp_hit-from>
+      <Hsp_hit-to>534</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLENKYYEPRDNYFQQYMLKGQYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TL+N+YYEPRD+YFQQYMLKG+YQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>/:sptrembl|Q9WHS8|Q9WHS8</Hit_id>
+  <Hit_def>Polyprotein (Fragment).//:gp|AF134207|4512207 polyprotein [Classical swine fever virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9WHS8|Q9WHS8</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.7379</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>5.94251e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLRNKYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TL+N+YYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>/:sptrembl|Q8QP47|Q8QP47</Hit_id>
+  <Hit_def>Polyprotein (Fragment).</Hit_def>
+  <Hit_accession>/:sptrembl|Q8QP47|Q8QP47</Hit_accession>
+  <Hit_len>1080</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.7379</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>6.7325e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>993</Hsp_hit-from>
+      <Hsp_hit-to>1022</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLTNKYFEPRDNYFQQYMLKGDYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TL N+Y+EPRD+YFQQYMLKG+YQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>/:sptrembl|O71957|O71957</Hit_id>
+  <Hit_def>Polyprotein (Fragment).//:gp|AF049224|2981421 polyprotein [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:sptrembl|O71957|O71957</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.7379</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>6.75611e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>356</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLSNKYFEPRDSYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TL N+Y+EPRDSYFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>/:sptrembl|Q91HK0|Q91HK0</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:gp|AY027674|15283991 structural glycoprotein E2 [Bovine viral diarrhea virus genotype 2]</Hit_def>
+  <Hit_accession>/:sptrembl|Q91HK0|Q91HK0</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.7379</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>6.91886e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLPNKYYEPRDRYFQQYMLKGEWQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TL N+YYEPRD YFQQYMLKGE+QYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>/:swiss|P19712|POLG_HCVA</Hit_id>
+  <Hit_def>Genome polyprotein.//:gp|J04358|5733834 polyprotein [Classical swine fever virus]</Hit_def>
+  <Hit_accession>/:swiss|P19712|POLG_HCVA</Hit_accession>
+  <Hit_len>3898</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.9675</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>1.19528e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>990</Hsp_hit-from>
+      <Hsp_hit-to>1019</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLRNKYYEPRDSYFQQYMLKGEYQYWFNLD</Hsp_hseq>
+      <Hsp_midline>TL+N+YYEPRDSYFQQYMLKGEYQYWF+LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>/:sptrembl|Q91HK3|Q91HK3</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:gp|AY027671|15283985 structural glycoprotein E2 [Bovine viral diarrhea virus-1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q91HK3|Q91HK3</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.5823</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.58289e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDNYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRD+YFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>/:sptrembl|Q9JGJ0|Q9JGJ0</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:gp|AB033753|7637403 structural glycoprotein E2 [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9JGJ0|Q9JGJ0</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.5823</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.58686e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDNYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRD+YFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>/:tremblnew|AAM88294|AAM88294</Hit_id>
+  <Hit_def>E2 glycoprotein (Fragment).</Hit_def>
+  <Hit_accession>/:tremblnew|AAM88294|AAM88294</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.5823</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.60663e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDSYFQQYMLKGEYQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRDSYFQQYMLKGEYQYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>/:sptrembl|Q9QJU3|Q9QJU3</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:gp|AF144613|6049246 structural glycoprotein E2 [Bovine viral diarrhea virus-2 isolate SCP]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9QJU3|Q9QJU3</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.5823</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.76113e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLPNKYYEPRDRYFQQYMLKGEWQYWFDLD</Hsp_hseq>
+      <Hsp_midline>TL N+YYEPRD YFQQYMLKGE+QYWFDLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>/:sptrembl|Q9QJU4|Q9QJU4</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:gp|AF144610|6049243 structural glycoprotein E2 [Bovine viral diarrhea virus-1 isolate 519]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9QJU4|Q9QJU4</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.1971</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.96441e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLNNKYFEPRDSYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TL N+Y+EPRDSYFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>/:sptrembl|Q9JGJ1|Q9JGJ1</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:gp|AB033752|7637401 structural glycoprotein E2 [pestivirus type 1]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9JGJ1|Q9JGJ1</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.1971</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>2.38366e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDSYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRDSYFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>/:sptrembl|Q9PYB2|Q9PYB2</Hit_id>
+  <Hit_def>Polyprotein.//:gp|AF144617|15282442 polyprotein [pestivirus giraffe-1 H138]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9PYB2|Q9PYB2</Hit_accession>
+  <Hit_len>3989</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.1971</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>2.81945e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>990</Hsp_hit-from>
+      <Hsp_hit-to>1019</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLENKYFEPRDEYFQQYMLKGKYQYWFDLK</Hsp_hseq>
+      <Hsp_midline>TL+N+Y+EPRD YFQQYMLKG+YQYWFDL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>/:sptrembl|Q9PYB3|Q9PYB3</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:sptrembl|Q9WAA4|Q9WAA4 Polyprotein (Fragment).//:gp|Y19123|5420141 polyprotein [Bovine viral diarrhea virus-1 strain C86]//:gp|AF144611|6049244 structural glycoprotein E2 [Bovine viral diarrhea virus-1 strain C86]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9PYB3|Q9PYB3</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.8119</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>2.82148e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLKNKYFEPRDSYFQQYMLKGEYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TLKN+Y+EPRDSYFQQYMLKGEYQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>/:sptrembl|Q9PZ40|Q9PZ40</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:gp|AF144612|6049245 structural glycoprotein E2 [Bovine viral diarrhea virus-2 isolate 230/98-K3 (Gi-6)]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9PZ40|Q9PZ40</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.4267</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>4.01358e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLPNKYYEPRDRYFQQYMLKGKWQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TL N+YYEPRD YFQQYMLKG++QYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>/:sptrembl|Q9QJU0|Q9QJU0</Hit_id>
+  <Hit_def>Structural glycoprotein E2 (Fragment).//:gp|AF144616|6049249 structural glycoprotein E2 [Bovine viral diarrhea virus-1 isolate SH9]</Hit_def>
+  <Hit_accession>/:sptrembl|Q9QJU0|Q9QJU0</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.0415</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>5.99277e-015</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEYQYWFDLD</Hsp_qseq>
+      <Hsp_hseq>TLSNKHFEPRDNYFQQYMLKGDYQYWFDLE</Hsp_hseq>
+      <Hsp_midline>TL N+++EPRD+YFQQYMLKG+YQYWFDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>/:sptrembl|Q68415|Q68415</Hit_id>
+  <Hit_def>Envelope glycoprotein polyprotein (Fragment).//:gp|U35740|1016754 envelope glycoprotein polyprotein [Classical swine fever virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q68415|Q68415</Hit_accession>
+  <Hit_len>745</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.3963</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>4.85585e-008</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>723</Hsp_hit-from>
+      <Hsp_hit-to>745</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>TLKNRYYEPRDSYFQQYMLKGEY</Hsp_qseq>
+      <Hsp_hseq>TLKNRYYEPRDSYFQQDILMAEY</Hsp_hseq>
+      <Hsp_midline>TLKNRYYEPRDSYFQQ +L  EY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>5</Statistics_hsp-len>
+      <Statistics_eff-space>4386160625</Statistics_eff-space>
+      <Statistics_kappa>0.0449624027570346</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>lcl|Query_1 Non-AVP_0426 hello:  lcl|Query_1 Non-AVP_0426 hello: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics </Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

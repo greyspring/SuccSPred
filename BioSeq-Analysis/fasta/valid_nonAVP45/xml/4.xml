@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.4.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>./psiblast/nrdb90/nrdb90</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Non-AVP_0438 hello</BlastOutput_query-def>
+  <BlastOutput_query-len>35</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.001</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Non-AVP_0438 hello</Iteration_query-def>
+  <Iteration_query-len>35</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:sptrembl|Q82022|Q82022</Hit_id>
+  <Hit_def>Fusion protein.//:gp|U31558|961607 fusion protein [Human respiratory syncytial virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q82022|Q82022</Hit_accession>
+  <Hit_len>575</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>4.2663e-016</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>ELSNIKENKCNGTDAKVKLIKQELDKYKNAVTELQ</Hsp_qseq>
+      <Hsp_hseq>ELSNIKENKCNGTDAKVKLIKQELDKYKNAVTELQ</Hsp_hseq>
+      <Hsp_midline>ELSNIKENKCNGTDAKVKLIKQELDKYKNAVTELQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:swiss|P13843|VGLF_HRSV1</Hit_id>
+  <Hit_def>Fusion glycoprotein precursor [Contains: Fusion glycoprotein F2; Fusion glycoprotein F1].//:gp|D00334|222565 fusion protein precursor [Human respiratory syncytial virus]</Hit_def>
+  <Hit_accession>/:swiss|P13843|VGLF_HRSV1</Hit_accession>
+  <Hit_len>574</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>1.17547e-014</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>ELSNIKENKCNGTDAKVKLIKQELDKYKNAVTELQ</Hsp_qseq>
+      <Hsp_hseq>ELSNIKETKCNGTDTKVKLIKQELDKYKNAVTELQ</Hsp_hseq>
+      <Hsp_midline>ELSNIKE KCNGTD KVKLIKQELDKYKNAVTELQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:swiss|P22167|VGLF_BRSVC</Hit_id>
+  <Hit_def>Fusion glycoprotein precursor [Contains: Fusion glycoprotein F2; Fusion glycoprotein F1].//:gp|M58350|210829 F protein [Bovine respiratory syncytial virus]</Hit_def>
+  <Hit_accession>/:swiss|P22167|VGLF_BRSVC</Hit_accession>
+  <Hit_len>574</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>1.47162e-008</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>ELSNIKENKCNGTDAKVKLIKQELDKYKNAVTELQ</Hsp_qseq>
+      <Hsp_hseq>ELSKIQKNVCKSTDSKVKLIKQELERYNNAVIELQ</Hsp_hseq>
+      <Hsp_midline>ELS I++N C  TD+KVKLIKQEL++Y NAV ELQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>9</Statistics_hsp-len>
+      <Statistics_eff-space>4505973706</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Non-AVP_0438 hello</Iteration_query-def>
+  <Iteration_query-len>35</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>/:sptrembl|Q82022|Q82022</Hit_id>
+  <Hit_def>Fusion protein.//:gp|U31558|961607 fusion protein [Human respiratory syncytial virus]</Hit_def>
+  <Hit_accession>/:sptrembl|Q82022|Q82022</Hit_accession>
+  <Hit_len>575</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.004</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>1.03604e-012</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>ELSNIKENKCNGTDAKVKLIKQELDKYKNAVTELQ</Hsp_qseq>
+      <Hsp_hseq>ELSNIKENKCNGTDAKVKLIKQELDKYKNAVTELQ</Hsp_hseq>
+      <Hsp_midline>ELSNIKENKCNGTDAKVKLIKQELDKYKNAVTELQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>/:swiss|P13843|VGLF_HRSV1</Hit_id>
+  <Hit_def>Fusion glycoprotein precursor [Contains: Fusion glycoprotein F2; Fusion glycoprotein F1].//:gp|D00334|222565 fusion protein precursor [Human respiratory syncytial virus]</Hit_def>
+  <Hit_accession>/:swiss|P13843|VGLF_HRSV1</Hit_accession>
+  <Hit_len>574</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6188</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.3887e-012</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>ELSNIKENKCNGTDAKVKLIKQELDKYKNAVTELQ</Hsp_qseq>
+      <Hsp_hseq>ELSNIKETKCNGTDTKVKLIKQELDKYKNAVTELQ</Hsp_hseq>
+      <Hsp_midline>ELSNIKE KCNGTD KVKLIKQELDKYKNAVTELQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>/:swiss|P22167|VGLF_BRSVC</Hit_id>
+  <Hit_def>Fusion glycoprotein precursor [Contains: Fusion glycoprotein F2; Fusion glycoprotein F1].//:gp|M58350|210829 F protein [Bovine respiratory syncytial virus]</Hit_def>
+  <Hit_accession>/:swiss|P22167|VGLF_BRSVC</Hit_accession>
+  <Hit_len>574</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6928</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>6.56136e-012</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>ELSNIKENKCNGTDAKVKLIKQELDKYKNAVTELQ</Hsp_qseq>
+      <Hsp_hseq>ELSKIQKNVCKSTDSKVKLIKQELERYNNAVIELQ</Hsp_hseq>
+      <Hsp_midline>ELS I++N C  TD+KVKLIKQEL++Y NAV ELQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>534936</Statistics_db-num>
+      <Statistics_db-len>178121105</Statistics_db-len>
+      <Statistics_hsp-len>9</Statistics_hsp-len>
+      <Statistics_eff-space>4505973706</Statistics_eff-space>
+      <Statistics_kappa>0.0391612075904776</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>lcl|Query_1 Non-AVP_0438 hello:  lcl|Query_1 Non-AVP_0438 hello: Warning: Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics </Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
