@@ -18,7 +18,7 @@ Before using BioSeq-Analysis, the Python software should be first installed and 
 # 2. Usage 
 
 
-     python Succs_predict.py BioSeq-Analysis\Input_data\data\test.fasta
+     python Succs_Predict.py BioSeq-Analysis\Input_data\data\test.fasta
 
 
 
